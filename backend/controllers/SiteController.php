@@ -67,7 +67,7 @@ class SiteController extends Controller
 					FROM_UNIXTIME(created_at, "%Y-%m-%d"),
 					COUNT(*) as num
 				FROM
-					t_admin_log
+					admin_log
 				WHERE
 					FROM_UNIXTIME(created_at, "%Y-%m-%d") = date_format(NOW(), "%Y-%m-%d")
 				GROUP BY
@@ -84,7 +84,7 @@ class SiteController extends Controller
 					FROM_UNIXTIME(created_at, "%Y-%m-%d") as date,
 					COUNT(*) as num
 				FROM
-					t_admin_log
+					admin_log
 				GROUP BY
 					FROM_UNIXTIME(created_at, "%Y-%m-%d")';
 		$rows=Yii::$app->db->createCommand($sql)->query();

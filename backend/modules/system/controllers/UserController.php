@@ -67,8 +67,7 @@ class UserController extends Controller
         if ($model->load($post_data) && $model->validate()) {
             $model->generateAuthKey();
             $model->password_hash=Yii::$app->security->generatePasswordHash($post_data['User']['password_hash']);
-			$model->created_ip = Yii::$app->ipaddress->getIp();
-			$model->created_address = Yii::$app->ipaddress->getIpAddress($model->created_ip);
+			$model->created_ip = Yii::$app->request->userIP;
             if($model->save()){
                 return $this->redirect(['view', 'id' => $model->id]);
             }

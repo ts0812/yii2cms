@@ -3,7 +3,6 @@ use backend\assets\LayuiAsset;
 use yii\helpers\Html;
 
 LayuiAsset::register($this);
-LayuiAsset::addScript($this, "@web/resources/js/login.js");
 LayuiAsset::addCss($this, "@web/resources/css/login.css");
 ?>
 <?php $this->beginPage() ?>

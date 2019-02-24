@@ -69,14 +69,7 @@ class Config extends \yii\db\ActiveRecord
             'status' => '状态',
         ];
     }
-	
-	public function beforeSave($insert) {
-		if(parent::beforeSave($insert)){
-			Yii::$app->memcache->delete($this->name);
-			return true;
-		}
-	}
-	
+
 	public static function getHtmlStatus($id){
 		if(isset(self::findOne($id)->status) && self::findOne($id)->status==0){
 			return true;
@@ -85,12 +78,5 @@ class Config extends \yii\db\ActiveRecord
 		}
 	}
 	
-	public static function getConfig($name){
-		$config = Yii::$app->memcache->get($name);
-		if(!$config){
-			$config = self::findOne(['name'=>$name])->value;
-			Yii::$app->memcache->set($name,$config);
-		}
-		return $config;
-	}
+
 }
