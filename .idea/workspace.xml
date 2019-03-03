@@ -2,68 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="022196b4-8894-4629-98b6-cdfbcdf64fed" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/assets/AppAsset.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/config/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/config/bootstrap.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/config/main.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/config/params.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/config/test.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/models/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/models/LoginForm.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/modules/v1/Module.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/modules/v1/controllers/ArticleController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/modules/v1/controllers/UserController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/runtime/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/views/goods/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/views/site/error.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/web/.htaccess" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/web/assets/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/web/css/site.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/web/index-test.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/web/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/web/robots.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/config/main.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/config/main.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/controllers/ApiController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/controllers/ToolsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/controllers/ToolsController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/modules/backup/controllers/ExportController.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/modules/backup/controllers/ExportController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/modules/rbac/components/AccessControl.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/modules/rbac/components/AccessControl.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/modules/rbac/components/Helper.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/modules/rbac/components/Helper.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/modules/rbac/components/MenuHelper.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/modules/rbac/components/MenuHelper.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/modules/rbac/controllers/AssignmentController.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/modules/rbac/controllers/AssignmentController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/modules/rbac/controllers/UserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/modules/rbac/controllers/UserController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/modules/rbac/models/Assignment.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/modules/rbac/models/Assignment.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/modules/rbac/models/Log.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/modules/rbac/models/Log.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/modules/rbac/models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/modules/rbac/models/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/modules/rbac/models/form/PasswordResetRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/modules/rbac/models/form/PasswordResetRequest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/modules/rbac/views/menu/_form.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/modules/rbac/views/menu/_form.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/modules/rbac/views/menu/js/_script.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/modules/rbac/views/menu/js/_script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/modules/rbac/views/user/_form.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/modules/rbac/views/user/_form.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/modules/rbac/views/user/signup.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/modules/rbac/views/user/signup.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/modules/system/controllers/UserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/modules/system/controllers/UserController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/modules/system/controllers/UserRankController.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/modules/system/controllers/UserRankController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/modules/system/views/user/_form.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/modules/system/views/user/_form.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/modules/system/views/user/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/modules/system/views/user/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/modules/system/views/user/view.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/modules/system/views/user/view.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/modules/versions/v1_0/Module.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/modules/versions/v1_0/controllers/UserController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/views/layouts/main.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/views/layouts/main.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/views/site/nav.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/views/site/nav.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/views/tools/ico.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/views/tools/ico.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/web/uploads/20190223/201902231540014954.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/web/uploads/20190223/201902231652003366.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/web/uploads/20190224/201902240431298809.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/common/CacheKey.php" beforeDir="false" afterPath="$PROJECT_DIR$/common/common/CacheKey.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/common/ErrCode.php" beforeDir="false" afterPath="$PROJECT_DIR$/common/common/ErrCode.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/config/main.php" beforeDir="false" afterPath="$PROJECT_DIR$/common/config/main.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/config/params.php" beforeDir="false" afterPath="$PROJECT_DIR$/common/config/params.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/models/User.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/models/UserRank.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/models/searchs/UserRankSearch.php" beforeDir="false" afterPath="$PROJECT_DIR$/common/models/mini/UserRankSearch.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/models/searchs/UserSearch.php" beforeDir="false" afterPath="$PROJECT_DIR$/common/models/mini/UserSearch.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/config/main.php" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/config/main.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/controllers/SiteController.php" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/controllers/SiteController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yii2cms.sql" beforeDir="false" afterPath="$PROJECT_DIR$/yii2cms.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -137,11 +76,28 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/common/config/main-local.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+            <state relative-caret-position="432">
+              <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/readme.txt">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="216">
+                <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -149,27 +105,6 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/backend/config/main-local.php">
           <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/common/widgets/batch_upload/UploadAction.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2969">
-              <caret line="85" selection-start-line="85" selection-end-line="85" />
-              <folding>
-                <element signature="e#434#442#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/common/widgets/batch_upload/Uploader.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1280">
-              <caret line="21" column="17" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
-            </state>
-          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -237,7 +172,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/backend/views/layouts/main.php" />
         <option value="$PROJECT_DIR$/common/models/mini/UserSearch.php" />
         <option value="$PROJECT_DIR$/backend/modules/system/controllers/UserController.php" />
         <option value="$PROJECT_DIR$/common/config/main-local.php" />
@@ -288,6 +222,7 @@
         <option value="$PROJECT_DIR$/backend/modules/mini/views/goods/view.php" />
         <option value="$PROJECT_DIR$/common/widgets/batch_upload/config.php" />
         <option value="$PROJECT_DIR$/backend/controllers/ToolsController.php" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -388,69 +323,6 @@
               <item name="yii2cms" type="b2602c69:ProjectViewProjectNode" />
               <item name="yii2cms" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="yii2cms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yii2cms" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yii2cms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yii2cms" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yii2cms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yii2cms" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yii2cms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yii2cms" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
-              <item name="mini" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yii2cms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yii2cms" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="widgets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yii2cms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yii2cms" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="widgets" type="462c0819:PsiDirectoryNode" />
-              <item name="batch_upload" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yii2cms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yii2cms" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="widgets" type="462c0819:PsiDirectoryNode" />
-              <item name="batch_upload" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yii2cms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yii2cms" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="widgets" type="462c0819:PsiDirectoryNode" />
-              <item name="batch_upload" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yii2cms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yii2cms" type="462c0819:PsiDirectoryNode" />
-              <item name="console" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yii2cms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yii2cms" type="462c0819:PsiDirectoryNode" />
-              <item name="uploads" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -522,12 +394,12 @@
       <workItem from="1551356087035" duration="7973000" />
       <workItem from="1551452619664" duration="6683000" />
       <workItem from="1551486003597" duration="25988000" />
-      <workItem from="1551577413698" duration="16423000" />
+      <workItem from="1551577413698" duration="17037000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="137062000" />
+    <option name="totallyTimeSpent" value="137676000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -594,20 +466,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/backend/modules/backup/Module.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="16" column="59" selection-start-line="16" selection-start-column="59" selection-end-line="16" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/modules/mini/Module.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/common/common/Upload.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-216" />
@@ -982,8 +840,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/common/config/main-local.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+        <state relative-caret-position="432">
+          <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/readme.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="216">
+            <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
