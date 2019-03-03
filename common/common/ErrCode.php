@@ -2,6 +2,8 @@
 namespace common\common;
 
 use Yii;
+use yii\web\Response;
+
 class ErrCode
 {
     ///获取标注key
@@ -10,14 +12,14 @@ class ErrCode
         $errCode = [
             0 => [ 'status' => 0 ],
             1 => [ 'status' => 1 , 'message' => 'ok', 'data' => null],
-            1000 => [ 'status' => 1000 , 'message' => Yii::t('app' , 'User not logged in')],
-            1001 => [ 'status' => 1001 , 'message' => Yii::t('app' , 'Login failed')],
-            1002 => [ 'status' => 1002 , 'message' => Yii::t('app' , 'Token expired')],
-            1003 => [ 'status' => 1003 , 'message' => Yii::t('app' , 'User has been disabled')],
-            1004 => [ 'status' => 1004 , 'message' => Yii::t('app' , 'User does not exist')],
+            1000 => [ 'status' => 1000 , 'message' => Yii::t('app' , 'User not logged in')], //用户未登录
+            1001 => [ 'status' => 1001 , 'message' => Yii::t('app' , 'Wrong account or password')], //账号或者密码错误
+            1002 => [ 'status' => 1002 , 'message' => Yii::t('app' , 'Token expired')],  //Token过期
+            1003 => [ 'status' => 1003 , 'message' => Yii::t('app' , 'User has been disabled')],  //用户已被停用
+            1004 => [ 'status' => 1004 , 'message' => Yii::t('app' , 'User does not exist')], //用户不存在
             1005 => [ 'status' => 1005 , 'message' => Yii::t('app' , 'This user cannot operate this data')],
             1006 => [ 'status' => 1006 , 'message' => Yii::t('app' , 'operation failed')],
-            1007 => [ 'status' => 1007 , 'message' => Yii::t('app' , 'Token does not exist')],
+            1007 => [ 'status' => 1007 , 'message' => Yii::t('app' , 'Token does not exist')],  //Token不存在
             1008 => [ 'status' => 1008 , 'message' => Yii::t('app' , 'This data does not exist')],
             1009 => [ 'status' => 1009 , 'message' => Yii::t('app' , 'Parameter error')], //参数错误
             1010 => [ 'status' => 1010 , 'message' => Yii::t('app' , 'This user has no device')],
@@ -53,6 +55,7 @@ class ErrCode
         $errCode = self::code($code);
         $errCode['data'] = $data;
         header("errCode: $code");
+       header("content:application/json;chartset=uft-8");
         if($code === 0){
             $errCode['data'] = null;
             $errCode['message'] = self::getErrorsMessage($data);

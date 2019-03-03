@@ -10,7 +10,15 @@ namespace common\common;
  */
 class CacheKey
 {
-
+    /**
+     * token校验
+     * @param string $token
+     * @return string
+     */
+    public static function tokenUserId(string $token): string
+    {
+        return 'tokenUserId'.$token;
+    }
     /**
      * 手机验证码
      * @param string $phone

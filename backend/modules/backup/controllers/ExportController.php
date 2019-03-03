@@ -123,6 +123,7 @@ class ExportController extends Controller
         \Yii::$app->response->format = Response::FORMAT_JSON;
         $tables = \Yii::$app->request->post('tables');
         $path = \Yii::$app->controller->module->params['DATA_BACKUP_PATH'];
+        //备份路径
         if(!is_dir($path)){
             mkdir($path, 0755, true);
         }

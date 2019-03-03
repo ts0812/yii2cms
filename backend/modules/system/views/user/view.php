@@ -1,7 +1,7 @@
 <?php
 use yii\widgets\DetailView;
 use backend\assets\LayuiAsset;
-use common\models\UserRank;
+use common\models\mini\UserRank;
 LayuiAsset::register($this);
 ?>
 <div class="user-view">

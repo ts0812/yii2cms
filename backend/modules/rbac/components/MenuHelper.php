@@ -68,10 +68,10 @@ class MenuHelper
 
         /* @var $manager \yii\rbac\BaseManager */
         $manager = Configs::authManager();
+
         $menus = Menu::find()->asArray()->indexBy('id')->all();
         $key = [__METHOD__, $userId, $manager->defaultRoles];
         $cache = $config->cache;
-
         if ($refresh || $cache === null || ($assigned = $cache->get($key)) === false) {
             $routes = $filter1 = $filter2 = [];
             if ($userId !== null) {

@@ -20,7 +20,7 @@ use backend\widgets\Menu;
         $menu = Menu::widget([
             'options' => ['class' => 'layui-nav layui-nav-tree'],
             'items' => MenuHelper::getAssignedMenu(Yii::$app->user->id, null, $callback),
-        ]); 
+        ]);
 ?>
 		<div class="layui-side layui-bg-black top-50 nav-top">
 			<div class="navBar layui-side-scroll"><?=$menu?></div>

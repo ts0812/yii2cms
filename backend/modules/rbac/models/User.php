@@ -29,7 +29,7 @@ use rbac\components\Configs;
 class User extends ActiveRecord implements IdentityInterface
 {
     const STATUS_INACTIVE = 0;
-    const STATUS_ACTIVE = 10;
+    const STATUS_ACTIVE = 1;
 
     /**
      * @inheritdoc
@@ -59,6 +59,7 @@ class User extends ActiveRecord implements IdentityInterface
 			['nickname', 'string', 'max' => 32],
             ['status', 'in', 'range' => [self::STATUS_ACTIVE, self::STATUS_INACTIVE]],
 			[['head_pic', 'email'], 'string', 'max' => 255],
+            [['email'], 'unique']
         ];
     }
 
@@ -108,7 +109,11 @@ class User extends ActiveRecord implements IdentityInterface
     {
         return static::findOne(['username' => $username, 'status' => self::STATUS_ACTIVE]);
     }
-
+    public static function getUsername($id)
+    {
+        $userList = static::findOne(['id' => $id, 'status' => self::STATUS_ACTIVE]);
+        return $userList->username??'';
+    }
     /**
      * Finds user by password reset token
      *

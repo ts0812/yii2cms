@@ -69,7 +69,6 @@ class Log extends ActiveRecord
     public static function addLog($action)
     {
         $model = new Log();
-
         $model->route = $action->uniqueId;
         $model->url = Yii::$app->request->absoluteUrl;
 
@@ -84,6 +83,7 @@ class Log extends ActiveRecord
         $model->admin_id = Yii::$app->user->identity['id'];
         $model->admin_email = Yii::$app->user->identity['email'];
         $model->ip = Yii::$app->request->userIP;
+
 
         $model->save();
 

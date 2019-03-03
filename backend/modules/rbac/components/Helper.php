@@ -119,12 +119,14 @@ class Helper
             if ($user->can($r, $params)) {
                 return true;
             }
+            //当前权限不符合时找'/*'
             while (($pos = strrpos($r, '/')) > 0) {
                 $r = substr($r, 0, $pos);
                 if ($user->can($r . '/*', $params)) {
                     return true;
                 }
             }
+
             return $user->can('/*', $params);
         } else {
             $routes = static::getRoutesByUser($userId);

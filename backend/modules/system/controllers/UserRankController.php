@@ -3,8 +3,8 @@
 namespace system\controllers;
 
 use Yii;
-use common\models\UserRank;
-use common\models\searchs\UserRankSearch;
+use common\models\mini\UserRank;
+use common\models\mini\UserRankSearch;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;

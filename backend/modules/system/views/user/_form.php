@@ -1,7 +1,7 @@
 <?php
 use yii\helpers\Html;
 use yii\widgets\ActiveForm;
-use common\models\UserRank;
+use common\models\mini\UserRank;
 
 $this->registerJs($this->render('js/upload.js'));
 ?>

@@ -4,7 +4,7 @@ use yii\helpers\Html;
 use yii\helpers\Url;
 use backend\assets\LayuiAsset;
 use yii\grid\GridView;
-use common\models\UserRank;
+use common\models\mini\UserRank;
 LayuiAsset::register($this); 
 $this->registerJs($this->render('js/index.js'));
 /* @var $this yii\web\View */

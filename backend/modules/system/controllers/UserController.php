@@ -3,8 +3,8 @@
 namespace system\controllers;
 
 use Yii;
-use common\models\User;
-use common\models\searchs\UserSearch;
+use common\models\mini\User;
+use common\models\mini\UserSearch;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;

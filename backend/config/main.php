@@ -5,14 +5,8 @@ $params = array_merge(
     require(__DIR__ . '/params.php'),
     require(__DIR__ . '/params-local.php')
 );
-//获取版本号
-$apiClass = 'app\modules\versions\v1_0\Module';
 
-if(isset($_SERVER['HTTP_VERSION']) && $_SERVER['HTTP_VERSION']){
-    $arr = ['v1.0'=>'v1_0', 'v1.1'=>'v1_1', 'v1.2'=>'v1_2'];
-    $v = substr($_SERVER['HTTP_VERSION'], 0,4);
-    $apiClass = 'app\modules\versions\\'.$arr[$v].'\Module';
-}
+
 return [
     'id' => 'app-backend',
 	'name' => 'alili后台管理系统',
@@ -30,8 +24,8 @@ return [
         "backup" => [        
             'class' => 'backup\Module',
         ],
-        "api" => [
-            'class' => $apiClass,
+        "mini" => [
+            'class' => 'backend\modules\mini\Module',
         ],
     ],
     "aliases" => [    
@@ -39,6 +33,8 @@ return [
 		'@system' => '@backend/modules/system',
 		'@backup' => '@backend/modules/backup',
     ],
+
+
     'components' => [
         'request' => [
             'csrfParam' => '_csrf-backend',
@@ -58,6 +54,14 @@ return [
                 [
                     'class' => 'yii\log\FileTarget',
                     'levels' => ['error', 'warning'],
+                ],
+            ],
+        ],
+        //语言包配置
+        'i18n'=>[
+            'translations'=>[
+                '*'=>[
+                    'class'=>'yii\i18n\PhpMessageSource',
                 ],
             ],
         ],

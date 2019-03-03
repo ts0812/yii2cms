@@ -41,15 +41,13 @@ class PasswordResetRequest extends Model
             'status' => User::STATUS_ACTIVE,
             'email' => $this->email,
         ]);
-
         if ($user) {
             if (!User::isPasswordResetTokenValid($user->password_reset_token)) {
                 $user->generatePasswordResetToken();
             }
-
             if ($user->save()) {
                 return Yii::$app->mailer->compose(['html' => 'passwordResetToken-html', 'text' => 'passwordResetToken-text'], ['user' => $user])
-                    ->setFrom([Yii::$app->params['supportEmail'] => Yii::$app->name . ' robot'])
+                    ->setFrom('1352645017@qq.com')
                     ->setTo($this->email)
                     ->setSubject('Password reset for ' . Yii::$app->name)
                     ->send();

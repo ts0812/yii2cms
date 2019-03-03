@@ -31,7 +31,7 @@ return [
             'csrfParam' => '_csrf-frontend',
         ],
         'user' => [
-            'identityClass' => 'common\models\User',
+            'identityClass' => 'common\models\mini\User',
             'enableAutoLogin' => true,
             'identityCookie' => ['name' => '_identity-frontend', 'httpOnly' => true],
         ],
@@ -54,7 +54,7 @@ return [
         'urlManager' => [
             'enablePrettyUrl' => true,
             'showScriptName' => false,
-			'suffix'=>'.html',
+			'suffix'=>'',
             'rules' => [
 				"<controller:\w+>/<id:\d+>"=>"<controller>/view",
             ],
