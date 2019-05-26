@@ -7,3 +7,4 @@
  */
 define('TOKEN_OUT_TIME', 86400*7);
 define('SECRET_SALT','aa39@*$hi13563kh4i');  //加密盐值
+define('PAGE_SIZE', 5); //分页条数

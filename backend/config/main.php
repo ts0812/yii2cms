@@ -27,6 +27,15 @@ return [
         "mini" => [
             'class' => 'backend\modules\mini\Module',
         ],
+        "music" => [
+            'class' => 'backend\modules\music\Module',
+        ],
+        "blog" => [
+            'class' => 'backend\modules\blog\Module',
+        ],
+        "api" => [
+            'class' => 'backend\modules\api\Module',
+        ],
     ],
     "aliases" => [    
         '@rbac' => '@backend/modules/rbac',
@@ -38,6 +47,10 @@ return [
     'components' => [
         'request' => [
             'csrfParam' => '_csrf-backend',
+            'parsers' => [
+                'application/json' => 'yii\web\JsonParser',
+                'text/json' => 'yii\web\JsonParser',
+            ]
         ],
         'user' => [
             'identityClass' => 'rbac\models\User',
@@ -87,7 +100,8 @@ return [
         'class' => 'rbac\components\AccessControl',
         'allowActions' => [
             'rbac/user/request-password-reset',
-            'rbac/user/reset-password'
+            'rbac/user/reset-password',
+            'api/*',
         ]
     ],
     'params' => $params,

@@ -2,8 +2,6 @@
 namespace common\common;
 
 use Yii;
-use yii\web\Response;
-
 class ErrCode
 {
     ///获取标注key
@@ -32,6 +30,7 @@ class ErrCode
             1017 => [ 'status' => 1017 , 'message' => Yii::t('app' , '设备不存在')],
             1018 => [ 'status' => 1018 , 'message' => Yii::t('app' , '文件上传失败')],
             1019 => [ 'status' => 1019 , 'message' => Yii::t('app' , '文件下载失败')],
+            9999 => [ 'status' => 9999 , 'message' => Yii::t('app' , '接口错误')],
         ];
         return $errCode[$code];
     }
@@ -55,12 +54,12 @@ class ErrCode
         $errCode = self::code($code);
         $errCode['data'] = $data;
         header("errCode: $code");
-       header("content:application/json;chartset=uft-8");
+        header("content:application/json;chartset=uft-8");
         if($code === 0){
             $errCode['data'] = null;
             $errCode['message'] = self::getErrorsMessage($data);
         }
-        Yii::$app->end(json_encode($errCode));
+        die(json_encode($errCode,JSON_UNESCAPED_UNICODE ));
     }
 
     /**

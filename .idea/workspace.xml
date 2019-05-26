@@ -2,7 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="022196b4-8894-4629-98b6-cdfbcdf64fed" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/yii2cms.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/yii2cms.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/config/main.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/config/main.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/web/swg/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/backend/web/swg/dist/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/common/ErrCode.php" beforeDir="false" afterPath="$PROJECT_DIR$/common/common/ErrCode.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/config/define.php" beforeDir="false" afterPath="$PROJECT_DIR$/common/config/define.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_files.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_files.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_namespaces.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_namespaces.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/installed.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/installed.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,89 +43,49 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/backend/modules/mini/controllers/GoodsController.php">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/backend/modules/api/controllers/TrafficController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="674">
-              <caret line="73" column="5" selection-start-line="73" selection-start-column="5" selection-end-line="73" selection-end-column="5" />
+            <state relative-caret-position="36">
+              <caret line="51" selection-start-line="51" selection-end-line="51" />
               <folding>
-                <element signature="e#52#82#0#PHP" expanded="true" />
+                <element signature="e#50#76#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/common/widgets/batch_upload/config.php">
+        <entry file="file://$PROJECT_DIR$/common/common/ErrCode.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="252">
+              <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/backend/modules/api/controllers/MusicController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="6264">
+              <caret line="178" column="32" selection-start-line="178" selection-start-column="32" selection-end-line="178" selection-end-column="32" />
               <folding>
-                <element signature="e#91#111#0#PHP" expanded="true" />
+                <element signature="e#50#80#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/backend/controllers/ToolsController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="347">
-              <caret line="46" column="43" selection-start-line="46" selection-start-column="43" selection-end-line="46" selection-end-column="43" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/backend/modules/api/Module.php">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/backend/config/main.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-391">
-              <caret line="66" column="10" selection-start-line="66" selection-start-column="10" selection-end-line="66" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/common/config/main.php">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/common/config/main-local.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/readme.txt">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="216">
-                <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/backend/config/main-local.php">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/backend/modules/mini/views/goods/view.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="347">
-              <caret line="54" column="40" lean-forward="true" selection-start-line="54" selection-start-column="40" selection-end-line="54" selection-end-column="40" />
+            <state relative-caret-position="1872">
+              <caret line="52" column="13" selection-start-line="52" selection-start-column="13" selection-end-line="52" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -120,36 +94,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>1003</find>
-      <find>1004</find>
-      <find>openid</find>
-      <find>mini\Module</find>
-      <find>uploads</find>
-      <find>pathFormat</find>
-      <find>getFileInfo</find>
-      <find>getFullName</find>
-      <find>getFileExt</find>
-      <find>config</find>
-      <find>getFileName</find>
-      <find>getFilePath</find>
-      <find>GoodsCatelog</find>
-      <find>layui</find>
-      <find>LayuiAsset</find>
-      <find>goods-form</find>
-      <find>catalog</find>
-      <find>catalog-add</find>
-      <find>最大2M</find>
-      <find>AjaxUpload</find>
-      <find>$value</find>
-      <find>userinfo_head_pic</find>
-      <find>changepic</find>
-      <find>catelog_id</find>
-      <find>findCatalogModel</find>
+      <find>grid-music-container</find>
+      <find>m-music-play-wrap</find>
+      <find>img</find>
+      <find>u-cover play</find>
+      <find>.grid-music-container .m-now-controls .u-process</find>
+      <find>\</find>
+      <find>.grid-music-container .u-cover</find>
+      <find>SMusic</find>
+      <find>.grid-music-container .m-music-list-wrap</find>
+      <find>border: 1px solid red</find>
+      <find>musicDom</find>
+      <find>listWrap</find>
+      <find>play</find>
+      <find>this.musicList[a].tit</find>
+      <find>title=&quot;' + c.title + &quot; -</find>
+      <find>.childrenBody</find>
+      <find>cover</find>
+      <find>title</find>
+      <find>.grid-music-container</find>
+      <find>usesong</find>
+      <find>get</find>
+      <find>'layui-layer-iframe1').conte</find>
+      <find>connent</find>
+      <find>@OA\Items(</find>
       <find>default</find>
-      <find>$authIds</find>
-      <find>$model-&gt;</find>
-      <find>label</find>
-      <find>$model-&gt;label</find>
+      <find>500</find>
+      <find>按升序排列</find>
+      <find>TrafficStatistics</find>
+      <find>post</find>
+      <find>defaultOrder</find>
     </findStrings>
     <replaceStrings>
       <replace>$arrCode</replace>
@@ -160,6 +134,13 @@
       <replace>catalog_id</replace>
       <replace>catalog</replace>
       <replace>$LabelIds</replace>
+      <replace>Comment</replace>
+      <replace>Pv</replace>
+      <replace>/resources/images/music_icons.png</replace>
+      <replace>pic</replace>
+      <replace>content</replace>
+      <replace>按sort升序排列</replace>
+      <replace>Traffic</replace>
     </replaceStrings>
     <dirStrings>
       <dir>D:\web\yii2cms\backend\modules\rbac\models</dir>
@@ -172,57 +153,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/common/models/mini/UserSearch.php" />
-        <option value="$PROJECT_DIR$/backend/modules/system/controllers/UserController.php" />
-        <option value="$PROJECT_DIR$/common/config/main-local.php" />
-        <option value="$PROJECT_DIR$/backend/modules/system/views/user/index.php" />
-        <option value="$PROJECT_DIR$/backend/modules/system/views/user/_form.php" />
-        <option value="$PROJECT_DIR$/backend/modules/system/views/user/view.php" />
-        <option value="$PROJECT_DIR$/common/models/mini/UserRank.php" />
-        <option value="$PROJECT_DIR$/api/config/main.php" />
-        <option value="$PROJECT_DIR$/backend/modules/system/controllers/UserRankController.php" />
-        <option value="$PROJECT_DIR$/common/models/mini/UserRankSearch.php" />
-        <option value="$PROJECT_DIR$/common/common/CacheKey.php" />
-        <option value="$PROJECT_DIR$/backend/web/index.php" />
-        <option value="$PROJECT_DIR$/frontend/web/index.php" />
-        <option value="$PROJECT_DIR$/frontend/config/main.php" />
-        <option value="$PROJECT_DIR$/common/common/Token.php" />
-        <option value="$PROJECT_DIR$/common/config/define.php" />
-        <option value="$PROJECT_DIR$/common/models/mini/User.php" />
-        <option value="$PROJECT_DIR$/frontend/controllers/SiteController.php" />
-        <option value="$PROJECT_DIR$/frontend/controllers/ApiController.php" />
-        <option value="$PROJECT_DIR$/backend/modules/mini/Module.php" />
-        <option value="$PROJECT_DIR$/common/widgets/batch_upload/FileUpload.php" />
-        <option value="$PROJECT_DIR$/common/widgets/batch_upload/Uploader.php" />
-        <option value="$PROJECT_DIR$/backend/controllers/UploadController.php" />
-        <option value="$PROJECT_DIR$/backend/controllers/SiteController.php" />
+        <option value="$PROJECT_DIR$/backend/modules/blog/views/navigation/update.php" />
+        <option value="$PROJECT_DIR$/backend/modules/blog/controllers/NavigationController.php" />
+        <option value="$PROJECT_DIR$/composer.json" />
+        <option value="$PROJECT_DIR$/backend/modules/blog/views/navigation/js/_script.js" />
+        <option value="$PROJECT_DIR$/backend/views/tools/ico.php" />
+        <option value="$PROJECT_DIR$/common/models/Upload.php" />
+        <option value="$PROJECT_DIR$/common/widgets/ueditor/Uploader.php" />
+        <option value="$PROJECT_DIR$/common/models/blog/ArticleConnent.php" />
+        <option value="$PROJECT_DIR$/common/models/blog/ArticleContent.php" />
+        <option value="$PROJECT_DIR$/backend/modules/blog/views/article/update.php" />
+        <option value="$PROJECT_DIR$/backend/modules/blog/views/index/update.php" />
+        <option value="$PROJECT_DIR$/backend/modules/blog/views/index/js/upload.js" />
+        <option value="$PROJECT_DIR$/backend/modules/blog/views/index/create.php" />
+        <option value="$PROJECT_DIR$/backend/modules/blog/controllers/IndexController.php" />
+        <option value="$PROJECT_DIR$/common/models/blog/Index.php" />
+        <option value="$PROJECT_DIR$/backend/controllers/SwgController.php" />
+        <option value="$PROJECT_DIR$/backend/web/swg/dist/index.html" />
+        <option value="$PROJECT_DIR$/backend/modules/api/Module.php" />
+        <option value="$PROJECT_DIR$/backend/modules/api/controllers/IndexController.php" />
+        <option value="$PROJECT_DIR$/backend/modules/blog/views/article/create.php" />
+        <option value="$PROJECT_DIR$/backend/modules/blog/views/index/index.php" />
+        <option value="$PROJECT_DIR$/backend/modules/blog/views/navigation/index.php" />
+        <option value="$PROJECT_DIR$/backend/modules/blog/views/index/_form.php" />
+        <option value="$PROJECT_DIR$/backend/modules/blog/views/navigation/_form.php" />
+        <option value="$PROJECT_DIR$/backend/modules/blog/views/article/_form.php" />
+        <option value="$PROJECT_DIR$/backend/modules/blog/views/article/js/upload.js" />
+        <option value="$PROJECT_DIR$/common/models/blog/Article.php" />
+        <option value="$PROJECT_DIR$/backend/modules/blog/views/article/index.php" />
+        <option value="$PROJECT_DIR$/backend/modules/blog/controllers/ArticleController.php" />
+        <option value="$PROJECT_DIR$/backend/modules/blog/controllers/AppHistoryController.php" />
+        <option value="$PROJECT_DIR$/backend/modules/blog/views/app-history/update.php" />
+        <option value="$PROJECT_DIR$/common/models/blog/AppHistory.php" />
+        <option value="$PROJECT_DIR$/backend/modules/blog/views/app-history/index.php" />
+        <option value="$PROJECT_DIR$/backend/modules/blog/views/app-history/create.php" />
+        <option value="$PROJECT_DIR$/backend/modules/blog/views/app-history/_form.php" />
+        <option value="$PROJECT_DIR$/backend/modules/api/controllers/MusicController.php" />
+        <option value="$PROJECT_DIR$/backend/modules/api/controllers/Tra.php" />
+        <option value="$PROJECT_DIR$/common/models/blog/TrafficStatistics.php" />
+        <option value="$PROJECT_DIR$/backend/modules/blog/views/traffic/_form.php" />
+        <option value="$PROJECT_DIR$/backend/modules/blog/views/traffic/update.php" />
+        <option value="$PROJECT_DIR$/backend/modules/blog/views/traffic/view.php" />
+        <option value="$PROJECT_DIR$/common/models/blog/Traffic.php" />
+        <option value="$PROJECT_DIR$/backend/modules/blog/views/traffic/index.php" />
+        <option value="$PROJECT_DIR$/common/models/blog/AppHistorySearch.php" />
+        <option value="$PROJECT_DIR$/common/models/blog/ArticleSearch.php" />
+        <option value="$PROJECT_DIR$/common/models/blog/BlogSearch.php" />
+        <option value="$PROJECT_DIR$/common/models/blog/IndexSearch.php" />
+        <option value="$PROJECT_DIR$/common/models/blog/TrafficSearch.php" />
+        <option value="$PROJECT_DIR$/backend/modules/api/controllers/BlogController.php" />
         <option value="$PROJECT_DIR$/backend/config/main.php" />
-        <option value="$PROJECT_DIR$/common/models/mini/GoodsCatelog.php" />
-        <option value="$PROJECT_DIR$/backend/modules/mini/views/goods-catalog/_form.php" />
-        <option value="$PROJECT_DIR$/backend/modules/mini/views/goods-catalog/create.php" />
-        <option value="$PROJECT_DIR$/backend/modules/mini/views/goods/catalog-add.php" />
-        <option value="$PROJECT_DIR$/common/common/ErrCode.php" />
-        <option value="$PROJECT_DIR$/backend/modules/mini/views/goods/catalog-view.php" />
-        <option value="$PROJECT_DIR$/common/widgets/batch_upload/UploadAction.php" />
-        <option value="$PROJECT_DIR$/backend/modules/rbac/views/user/signup.php" />
-        <option value="$PROJECT_DIR$/backend/modules/mini/views/goods/js/upload.js" />
-        <option value="$PROJECT_DIR$/backend/modules/rbac/views/user/_form.php" />
-        <option value="$PROJECT_DIR$/backend/modules/mini/views/goods/create.php" />
-        <option value="$PROJECT_DIR$/backend/modules/mini/views/goods/update.php" />
-        <option value="$PROJECT_DIR$/common/models/mini/GoodsCatalog.php" />
-        <option value="$PROJECT_DIR$/backend/modules/rbac/models/User.php" />
-        <option value="$PROJECT_DIR$/common/models/mini/GoodsLabel.php" />
-        <option value="$PROJECT_DIR$/common/models/mini/Label.php" />
-        <option value="$PROJECT_DIR$/common/widgets/batch_upload/views/index.php" />
-        <option value="$PROJECT_DIR$/common/models/mini/GoodsSearch.php" />
-        <option value="$PROJECT_DIR$/backend/modules/mini/views/goods/_form.php" />
-        <option value="$PROJECT_DIR$/common/models/mini/Goods.php" />
-        <option value="$PROJECT_DIR$/backend/modules/mini/views/goods/index.php" />
-        <option value="$PROJECT_DIR$/backend/modules/mini/controllers/GoodsController.php" />
-        <option value="$PROJECT_DIR$/backend/modules/mini/views/goods/view.php" />
-        <option value="$PROJECT_DIR$/common/widgets/batch_upload/config.php" />
-        <option value="$PROJECT_DIR$/backend/controllers/ToolsController.php" />
-        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/backend/modules/api/controllers/TrafficController.php" />
       </list>
     </option>
   </component>
@@ -300,6 +281,9 @@
       <path value="$PROJECT_DIR$/vendor/sebastian/object-reflector" />
       <path value="$PROJECT_DIR$/vendor/symfony/contracts" />
       <path value="$PROJECT_DIR$/vendor/yiisoft/yii2-redis" />
+      <path value="$PROJECT_DIR$/vendor/zircote/swagger-php" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/annotations" />
     </include_path>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
@@ -308,7 +292,7 @@
     <option name="width" value="1400" />
     <option name="height" value="1000" />
   </component>
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
   </component>
   <component name="ProjectView">
@@ -331,26 +315,31 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../marker-service" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../music" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\web\yii2cms\backend\modules\mini\views\goods\js" />
-      <recent name="D:\web\yii2cms\backend\modules\mini\views\goods" />
-      <recent name="D:\web\yii2cms\backend\modules\mini" />
-      <recent name="D:\web\yii2cms\common\models\mini" />
-      <recent name="D:\web\yii2cms\common\common" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\web\yii2cms\backend\modules\blog\views\navigation" />
+      <recent name="D:\web\yii2cms\backend\modules\music\views\music" />
       <recent name="D:\web\yii2cms\common\models\mini" />
       <recent name="D:\web\yii2cms\backend\modules\rbac\models\rules" />
       <recent name="D:\web\yii2cms\backend\modules\rbac\models" />
-      <recent name="D:\web\yii2cms\backend\modules\versions" />
-      <recent name="D:\web\yii2cms\common\common" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\web\yii2cms\backend\modules\blog\views\article" />
+      <recent name="D:\web\yii2cms\backend\modules\api\controllers" />
+      <recent name="D:\web\yii2cms\backend\controllers" />
+      <recent name="D:\web\yii2cms\backend\modules\blog\views\index" />
+      <recent name="D:\web\yii2cms\backend\modules\blog\views\navigation\js" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -394,19 +383,42 @@
       <workItem from="1551356087035" duration="7973000" />
       <workItem from="1551452619664" duration="6683000" />
       <workItem from="1551486003597" duration="25988000" />
-      <workItem from="1551577413698" duration="17037000" />
+      <workItem from="1551577413698" duration="24015000" />
+      <workItem from="1551702790002" duration="6462000" />
+      <workItem from="1551790303860" duration="5892000" />
+      <workItem from="1551875372401" duration="11721000" />
+      <workItem from="1551965544159" duration="2468000" />
+      <workItem from="1556897385902" duration="3422000" />
+      <workItem from="1556936857532" duration="27000" />
+      <workItem from="1556936923677" duration="30604000" />
+      <workItem from="1557068515542" duration="159000" />
+      <workItem from="1557504069373" duration="6050000" />
+      <workItem from="1557535942733" duration="36068000" />
+      <workItem from="1557636414475" duration="590000" />
+      <workItem from="1557756394694" duration="7617000" />
+      <workItem from="1557832730450" duration="4965000" />
+      <workItem from="1557923066685" duration="12425000" />
+      <workItem from="1558010404919" duration="3433000" />
+      <workItem from="1558102797586" duration="7916000" />
+      <workItem from="1558194251892" duration="3229000" />
+      <workItem from="1558227395495" duration="15588000" />
+      <workItem from="1558360715555" duration="1180000" />
+      <workItem from="1558437551075" duration="3667000" />
+      <workItem from="1558528631296" duration="5148000" />
+      <workItem from="1558618496135" duration="586000" />
+      <workItem from="1558766260239" duration="13372000" />
+      <workItem from="1558835701670" duration="1789000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="137676000" />
+    <option name="totallyTimeSpent" value="329032000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.2473176" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.23658799" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" />
       <window_info anchor="bottom" id="Database Changes" order="1" />
@@ -414,20 +426,22 @@
       <window_info anchor="bottom" id="Version Control" order="3" />
       <window_info anchor="bottom" id="Docker" order="4" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="5" />
-      <window_info anchor="bottom" id="Find" order="6" />
+      <window_info anchor="bottom" id="Find" order="6" weight="0.17075893" />
       <window_info anchor="bottom" id="Run" order="7" />
       <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="11" />
-      <window_info anchor="right" id="Database" order="0" />
+      <window_info anchor="bottom" id="File Transfer" order="12" weight="0.32924107" />
+      <window_info anchor="right" id="Database" order="0" weight="0.3299356" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info anchor="right" id="Remote Host" order="4" weight="0.26180258" />
     </layout>
     <layout-to-restore>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.24409871" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.15504292" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" />
       <window_info anchor="bottom" id="Database Changes" order="1" />
@@ -435,16 +449,18 @@
       <window_info anchor="bottom" id="Version Control" order="3" />
       <window_info anchor="bottom" id="Docker" order="4" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="5" />
-      <window_info anchor="bottom" id="Find" order="6" />
+      <window_info anchor="bottom" id="Find" order="6" weight="0.17075893" />
       <window_info anchor="bottom" id="Run" order="7" />
       <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="11" />
-      <window_info anchor="right" id="Database" order="0" />
+      <window_info anchor="bottom" id="File Transfer" order="12" weight="0.32924107" />
+      <window_info anchor="right" id="Database" order="0" weight="0.3299356" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info anchor="right" id="Remote Host" order="4" weight="0.26180258" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -462,399 +478,329 @@
           <line>2</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/common/common/ErrCode.php</url>
+          <line>3</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/common/common/Upload.php">
+    <entry file="file://$PROJECT_DIR$/common/models/blog/AppHistory.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-216" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/yiisoft/yii2/base/Widget.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="233" column="20" selection-start-line="233" selection-start-column="20" selection-end-line="233" selection-end-column="20" />
+        <state relative-caret-position="1080">
+          <caret line="30" column="26" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common/widgets/batch_upload/assets/FileUploadAsset.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/widgets/batch_upload/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="540">
-            <caret line="21" column="60" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="60" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/controllers/SiteController.php">
+    <entry file="file://$PROJECT_DIR$/backend/modules/blog/views/app-history/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/controllers/UploadController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/web/plugins/layui/css/layui.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="1" column="47652" selection-start-line="1" selection-start-column="47652" selection-end-line="1" selection-end-column="47652" />
+        <state relative-caret-position="792">
+          <caret line="24" column="32" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
           <folding>
-            <element signature="e#61451#61590#2" expanded="true" />
-            <element signature="e#63044#63183#2" expanded="true" />
-            <element signature="e#63731#63870#2" expanded="true" />
+            <element signature="e#7#28#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backend/assets/LayuiAsset.php">
+    <entry file="file://$PROJECT_DIR$/backend/modules/blog/views/app-history/create.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/modules/mini/views/goods-catalog/create.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="401">
-          <caret line="22" column="26" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/modules/mini/views/goods-catalog/_form.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
+        <state relative-caret-position="540">
           <caret line="15" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backend/modules/mini/views/goods-catalog/update.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/modules/mini/views/goods/catalog-view.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="63" column="42" selection-start-line="63" selection-start-column="42" selection-end-line="63" selection-end-column="42" />
-          <folding>
-            <element signature="e#7#28#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/modules/mini/views/goods/catalog.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-211">
-          <caret line="9" selection-start-line="9" selection-end-line="15" selection-end-column="8" />
-          <folding>
-            <element signature="e#7#28#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/modules/mini/views/goods-catalog/view.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/common/ErrCode.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="57" selection-start-line="57" selection-end-line="57" />
-          <folding>
-            <element signature="e#32#40#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/widgets/batch_upload/static/upload_act.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="13">
-          <caret line="22" column="14" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="14" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/widgets/batch_upload/FileUpload.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="77">
-          <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/yiisoft/yii2/helpers/BaseHtml.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="448" column="27" selection-start-line="448" selection-start-column="27" selection-end-line="448" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/modules/rbac/views/user/js/upload.js">
+    <entry file="file://$PROJECT_DIR$/backend/modules/blog/views/app-history/_form.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
-          <caret line="11" column="45" selection-start-line="11" selection-start-column="45" selection-end-line="11" selection-end-column="50" />
+          <caret line="21" column="64" selection-start-line="21" selection-start-column="64" selection-end-line="21" selection-end-column="64" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backend/modules/mini/views/goods/js/upload.js">
+    <entry file="file://$PROJECT_DIR$/common/models/music/Music.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="395">
+          <caret line="98" column="17" selection-start-line="98" selection-start-column="13" selection-end-line="98" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/models/blog/TrafficStatistics.php" />
+    <entry file="file://$PROJECT_DIR$/backend/modules/blog/views/article/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="4" selection-start-line="4" selection-end-line="5" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/modules/blog/views/traffic/view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="36" column="25" lean-forward="true" selection-start-line="36" selection-start-column="25" selection-end-line="36" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/modules/blog/views/traffic/update.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/modules/blog/views/traffic/_form.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/json/json.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="89" column="9" selection-start-line="89" selection-start-column="9" selection-end-line="89" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/standard_1.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="979" column="34" selection-start-line="979" selection-end-line="980" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/modules/rbac/views/user/_form.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="19" column="48" selection-start-line="19" selection-start-column="48" selection-end-line="19" selection-end-column="49" />
+          <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
           <folding>
-            <element signature="e#6#27#0#PHP" expanded="true" />
+            <element signature="e#7#28#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backend/modules/mini/views/goods/create.php">
+    <entry file="file://$PROJECT_DIR$/backend/modules/blog/views/article/_form.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        <state relative-caret-position="144">
+          <caret line="4" selection-start-line="4" selection-end-line="18" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backend/modules/rbac/views/user/signup.php">
+    <entry file="file://$PROJECT_DIR$/backend/modules/blog/views/article/create.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="3" column="30" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
+        <state relative-caret-position="504">
+          <caret line="14" column="3" selection-start-line="14" selection-start-column="3" selection-end-line="18" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/models/blog/Traffic.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="57" selection-start-line="57" selection-end-line="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/modules/blog/views/traffic/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
           <folding>
-            <element signature="e#6#27#0#PHP" expanded="true" />
+            <element signature="e#7#28#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backend/modules/mini/views/goods-catalog/index.php">
+    <entry file="file://$PROJECT_DIR$/vendor/yiisoft/yii2/data/ActiveDataProvider.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="473">
-          <caret line="32" column="49" selection-start-line="32" selection-start-column="12" selection-end-line="32" selection-end-column="49" />
+        <state relative-caret-position="995">
+          <caret line="174" column="34" selection-start-line="174" selection-start-column="28" selection-end-line="174" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backend/modules/rbac/models/User.php">
+    <entry file="file://$PROJECT_DIR$/common/models/music/MusicSearch.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="423">
-          <caret line="111" column="38" selection-start-line="111" selection-start-column="27" selection-end-line="111" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/modules/mini/controllers/GoodsCatalogController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="70">
-          <caret line="111" selection-start-line="111" selection-end-line="125" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/models/mini/GoodsCatalog.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="59" selection-start-line="59" selection-end-line="66" selection-end-column="5" />
-          <folding>
-            <element signature="e#38#68#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/yiisoft/yii2/db/ActiveQuery.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="772" column="39" selection-start-line="772" selection-start-column="29" selection-end-line="772" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/yiisoft/yii2/db/Command.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="610" column="20" selection-start-line="610" selection-start-column="20" selection-end-line="610" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/models/mini/Label.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="60" column="32" selection-start-line="60" selection-start-column="20" selection-end-line="60" selection-end-column="32" />
-          <folding>
-            <element signature="e#38#68#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/models/mini/GoodsLabel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="19" column="27" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/widgets/batch_upload/views/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="900">
-          <caret line="25" column="30" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
+        <state relative-caret-position="324">
+          <caret line="44" column="43" selection-start-line="44" selection-start-column="43" selection-end-line="44" selection-end-column="43" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/common/models/mini/GoodsSearch.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="20" column="50" selection-start-line="20" selection-start-column="50" selection-end-line="20" selection-end-column="50" />
-          <folding>
-            <element signature="e#38#57#0#PHP" expanded="true" />
-          </folding>
-        </state>
+        <state relative-caret-position="-1728" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backend/modules/mini/views/goods/update.php">
+    <entry file="file://$PROJECT_DIR$/common/models/blog/BlogSearch.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+        <state relative-caret-position="718">
+          <caret line="55" column="14" selection-start-line="55" selection-start-column="14" selection-end-line="55" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backend/modules/mini/views/goods/_form.php">
+    <entry file="file://$PROJECT_DIR$/common/models/blog/IndexSearch.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="383">
-          <caret line="45" column="39" selection-start-line="45" selection-start-column="39" selection-end-line="45" selection-end-column="39" />
-          <folding>
-            <element signature="e#7#28#0#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="612">
+          <caret line="55" column="14" selection-start-line="55" selection-start-column="14" selection-end-line="55" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common/models/mini/Goods.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="72" column="22" selection-start-line="72" selection-start-column="22" selection-end-line="72" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/modules/mini/views/goods/index.php">
+    <entry file="file://$PROJECT_DIR$/common/models/blog/TrafficSearch.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="545">
-          <caret line="97" column="41" selection-start-line="97" selection-start-column="41" selection-end-line="97" selection-end-column="41" />
+          <caret line="49" column="24" lean-forward="true" selection-start-line="49" selection-start-column="24" selection-end-line="49" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/models/blog/ArticleSearch.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="55" column="14" selection-start-line="55" selection-start-column="14" selection-end-line="55" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/models/blog/AppHistorySearch.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="509">
+          <caret line="48" column="8" selection-start-line="48" selection-start-column="8" selection-end-line="55" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/modules/blog/controllers/TrafficController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" column="41" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/modules/api/controllers/BlogController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-972">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
           <folding>
-            <element signature="e#7#28#0#PHP" expanded="true" />
+            <element signature="e#73#99#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common/widgets/batch_upload/UploadAction.php">
+    <entry file="file://$PROJECT_DIR$/vendor/zircote/swagger-php/Examples/example-object/example-object.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2969">
-          <caret line="85" selection-start-line="85" selection-end-line="85" />
+        <state relative-caret-position="396">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="36" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/zircote/swagger-php/Examples/misc/misc-api.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/zircote/swagger-php/Examples/openapi-spec/RepositoriesControler.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1620" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/zircote/swagger-php/Examples/openapi-spec/UsersController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-324" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/zircote/swagger-php/Examples/petstore-3.0/controllers/Pet.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-432" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/zircote/swagger-php/Examples/petstore-3.0/controllers/Store.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4459" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/zircote/swagger-php/Examples/petstore-3.0/controllers/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-540" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/zircote/swagger-php/Examples/petstore-3.0/api.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-972" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/zircote/swagger-php/Examples/petstore-3.0/security.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-324" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/zircote/swagger-php/Examples/petstore.swagger.io/controllers/PetController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5832" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/zircote/swagger-php/Examples/petstore.swagger.io/controllers/StoreController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1188" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/zircote/swagger-php/Examples/petstore.swagger.io/controllers/UserController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-540" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/zircote/swagger-php/Examples/petstore.swagger.io/tags.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-247" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/zircote/swagger-php/Examples/swagger-spec/petstore/PetsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1404" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/zircote/swagger-php/Examples/swagger-spec/petstore-simple/api.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-625" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/zircote/swagger-php/Examples/using-refs/ProductController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1003" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/zircote/swagger-php/Examples/using-refs/api-spec.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/zircote/swagger-php/Examples/swagger-spec/petstore-with-external-docs/controllers/PetWithDocsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-324" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/zircote/swagger-php/Examples/swagger-spec/petstore-simple/SimplePetsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4860" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/zircote/swagger-php/Examples/petstore.swagger.io/swagger-v3.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-355" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/zircote/swagger-php/Examples/petstore.swagger.io/security.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-247" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/zircote/swagger-php/Examples/petstore.swagger.io/ApiResponse.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-391" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/modules/api/controllers/TrafficController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="51" selection-start-line="51" selection-end-line="51" />
           <folding>
-            <element signature="e#434#442#0#PHP" expanded="true" />
+            <element signature="e#50#76#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common/widgets/batch_upload/Uploader.php">
+    <entry file="file://$PROJECT_DIR$/common/common/ErrCode.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1280">
-          <caret line="21" column="17" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
+        <state relative-caret-position="252">
+          <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backend/modules/mini/controllers/GoodsController.php">
+    <entry file="file://$PROJECT_DIR$/backend/modules/api/controllers/MusicController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="674">
-          <caret line="73" column="5" selection-start-line="73" selection-start-column="5" selection-end-line="73" selection-end-column="5" />
+        <state relative-caret-position="6264">
+          <caret line="178" column="32" selection-start-line="178" selection-start-column="32" selection-end-line="178" selection-end-column="32" />
           <folding>
-            <element signature="e#52#82#0#PHP" expanded="true" />
+            <element signature="e#50#80#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backend/modules/mini/views/goods/view.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
-          <caret line="54" column="40" lean-forward="true" selection-start-line="54" selection-start-column="40" selection-end-line="54" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/widgets/batch_upload/config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="e#91#111#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/controllers/ToolsController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
-          <caret line="46" column="43" selection-start-line="46" selection-start-column="43" selection-end-line="46" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/config/main-local.php">
+    <entry file="file://$PROJECT_DIR$/backend/modules/api/Module.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/backend/config/main.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-391">
-          <caret line="66" column="10" selection-start-line="66" selection-start-column="10" selection-end-line="66" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/config/main.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/config/main-local.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/readme.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="216">
-            <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-          </first_editor>
-          <second_editor />
+        <state relative-caret-position="1872">
+          <caret line="52" column="13" selection-start-line="52" selection-start-column="13" selection-end-line="52" selection-end-column="13" />
         </state>
       </provider>
     </entry>
