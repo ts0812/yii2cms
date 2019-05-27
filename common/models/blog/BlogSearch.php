@@ -5,6 +5,10 @@ namespace common\models\blog;
 use yii\base\Model;
 use yii\data\ActiveDataProvider;
 use common\models\blog\Navigation;
+<<<<<<< HEAD
+=======
+
+>>>>>>> df0fa585b24345c24952495ace518c362bfde317
 /**
  * BlogSearch represents the model behind the search form of `common\models\blog\navigation`.
  */
