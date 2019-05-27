@@ -2,7 +2,7 @@
 
 namespace backend\modules\blog\controllers;
 
-use common\models\blog\Articlecontent;
+use common\models\blog\ArticleContent;
 use Yii;
 use common\models\blog\Article;
 use common\models\blog\ArticleSearch;
