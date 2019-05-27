@@ -49,12 +49,19 @@ class TrafficController extends Controller
             $url=yii::$app->request->post('url','');
         if($url){
             $headers =Yii::$app->request->headers;
-            $model = new Traffic();
-            $model->referer=$headers['referer']??'';
-            $model->user_agent=$headers['user-agent']??'';
-            $model->ip=Yii::$app->request->userIP;
-            $model->url=$url;
-            if($model->save())
+//            $model = new Traffic();
+//            $model->referer=$headers['referer']??'';
+//            $model->user_agent=$headers['user-agent']??'';
+//            $model->ip=Yii::$app->request->userIP;
+//            $model->url=$url;
+//            if($model->save())
+//                ErrCode::errCode(1,'流量统计中');
+
+            $data['referer']=$headers['referer']??'';
+            $data['user_agent']=$headers['user-agent']??'';
+            $data['ip']=Yii::$app->request->userIP;
+            $data['url']=$url;
+            if(yii::$app->redis->lpush('traffic',json_encode($data)))
                 ErrCode::errCode(1,'流量统计中');
         }
         ErrCode::errCode(0,'流量统计失败');

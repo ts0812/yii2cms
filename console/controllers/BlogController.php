@@ -1,33 +1,35 @@
 <?php
 namespace console\controllers;
 
-use backend\models\Push;
-use backend\models\blog\TrafficStatistics;
+use common\models\blog\Push;
+use common\models\blog\Traffic;
 use yii\console\Controller;
 use Yii;
 class BlogController extends Controller{
     //统计访问流量
     function actionTraffic(){
-        $n =1;
+        $n =60;
         $arr = [];  //数据集合
         $redis=Yii::$app->redis;
         while ($n--) {
-            $num = 3;
+            $num = 100;
             while ($num--) {
                 $redisRow = $redis->rpop('traffic');
                 if (!$redisRow) continue;
                 $arr[] = json_decode($redisRow, true);
             }
+            if($arr){
+                $tableName=Traffic::tableName();
+                $attributeArr=array_keys($arr[0]);
+                Yii::$app->blog->createCommand()->batchInsert(
+                    $tableName,
+                    $attributeArr,
+                    $arr
+                )->execute();
+            }
+            sleep(1);
         }
-        if($arr){
-            $tableName=TrafficStatistics::tableName();
-            $attributeArr=array_keys($arr[0]);
-            Yii::$app->db->createCommand()->batchInsert(
-                $tableName,
-                $attributeArr,
-                $arr
-            )->execute();
-        }
+
     }
     //每日推送 降序 排序 24点更新
     public function actionPush(){

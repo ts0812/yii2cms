@@ -41,7 +41,7 @@ $this->registerJs($this->render('js/index.js'));
 				],
                 'format'=>'raw',
                 'value'=>function($model){
-                    return '<a href="http://mybdxc.cn/index.php?id='.$model['id'].'" target="_blank" title="'.$model['title'].'" >'.$model['title'].'</a>';
+                    return '<a href="http://music.mybdxc.cn/index.php?id='.$model['id'].'" target="_blank" title="'.$model['title'].'" >'.$model['title'].'</a>';
                 }
 			],
             [
