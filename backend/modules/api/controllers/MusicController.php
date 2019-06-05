@@ -17,7 +17,7 @@ class MusicController extends Controller
     //http://music.163.com/song/media/outer/url?id=1335350269.mp3    来自网易云音乐 歌曲链接
     //http://music.163.com/api/song/lyric?os=pc&id=1335350269&lv=-1&kv=-1&tv=-1 歌词lrc
     public $enableCsrfValidation = false;
-    public $musicUrl = 'http://106.13.115.15:82/index.php?id=';  //音乐地址
+    public $musicUrl = 'http://music.mybdxc.cn/index.php?id=';  //音乐地址
     /**
      * @inheritdoc
      */
