@@ -21,7 +21,10 @@ class LoginController extends Controller
             $openId = $qc->get_openid();
             $qc = new \QC($accessToken,$openId);
             $info = $qc->get_user_info();
-            var_dump($info);die;
+            if($info &&$info['ret']==0){
+                var_dump($info);die;
+            }
+                var_dump($info);die;
         }else{
             $qc->qq_login();
         }
