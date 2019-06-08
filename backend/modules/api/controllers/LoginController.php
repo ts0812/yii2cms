@@ -22,13 +22,20 @@ class LoginController extends ApiController
             //获取用户openid 平台唯一标志符
             $openId = $qc->get_openid();
             $model = User::findOne(['openid'=>$openId]);
+            //已注册的qq用户
             if($model){
                 $userinfo = $model->attributes;
                 unset($userinfo['password']);
                 $token = CacheKey::setToken($model->id,$userinfo);
-                if($token)
-                    $this->errCode(1,$token);
-            }else{
+                if($token){
+                    $data = [
+                        'token'=>$token,
+                        'image'=>$model->image,
+                        'nickname'=>$model->nickname
+                    ];
+                    $this->errCode(1,$data);
+                }
+            }else{  //未注册
                 $qc = new \QC($accessToken,$openId);
                 $info = $qc->get_user_info();
                 if($info &&$info['ret']==0){
@@ -44,8 +51,14 @@ class LoginController extends ApiController
                         $userinfo = $model->attributes;
                         unset($userinfo['password']);
                         $token = CacheKey::setToken($model->id,$userinfo);
-                        if($token)
-                            $this->errCode(1,$token);
+                        if($token){
+                            $data = [
+                                'token'=>$token,
+                                'image'=>$model->image,
+                                'nickname'=>$model->nickname
+                            ];
+                            $this->errCode(1,$data);
+                        }
                     }
                 }
             }
