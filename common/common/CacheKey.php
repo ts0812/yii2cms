@@ -3,6 +3,7 @@
  */
 
 namespace common\common;
+use yii;
 /**
  * StringHelper
  *
