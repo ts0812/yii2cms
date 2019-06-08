@@ -19,6 +19,7 @@ class ApiController extends Controller
     //不验证token的链接地址
     protected $_arrUrl = [
         'api/login/qq-login',
+        'api/login/login-by-openid',
     ];
     //用户数据
     protected $_userData = null;

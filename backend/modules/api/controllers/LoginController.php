@@ -12,6 +12,7 @@ require_once(Yii::getAlias("@common")."/API/qqConnectAPI.php");
 class LoginController extends ApiController
 {
     public $enableCsrfValidation = false;
+    //qq_login与请求必须在同一域名下，暂时用不了
     function actionQqLogin(){
         $code = yii::$app->request->get('code','');
         $state = yii::$app->request->get('state','');
@@ -41,7 +42,7 @@ class LoginController extends ApiController
                 if($info &&$info['ret']==0){
                     $model = new User();
                     $model->nickname=$info['nickname']??'';
-                    $model->sex=array_search($info['gender'],$model::$_sex)??0;
+                    $model->sex=array_search($info['gender'],User::$_sex)??0;
                     $model->province=$info['province']??'';
                     $model->city=$info['city']??'';
                     $model->age=(int)date('Y')-(int)$info['year'];
@@ -66,5 +67,24 @@ class LoginController extends ApiController
         }else{
             $qc->qq_login();
         }
+    }
+    //openid登录验证
+    public function actionLoginByOpenid(){
+        $openId = yii::$app->request->get('openid','');
+        $model = User::findOne(['openid'=>$openId]);
+        if($model){
+            $userinfo = $model->attributes;
+            unset($userinfo['password']);
+            $token = CacheKey::setToken($model->id,$userinfo);
+            if($token){
+                $data = [
+                    'token'=>$token,
+                    'image'=>$model->image,
+                    'nickname'=>$model->nickname
+                ];
+                $this->errCode(1,$data);
+            }
+        }
+        $this->errCode(1000);
     }
 }
