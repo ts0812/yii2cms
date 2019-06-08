@@ -73,7 +73,7 @@ class ApiController extends Controller
             $errCode['data'] = null;
             $errCode['message'] = $this->getErrorsMessage($data);
         }
-        Yii::$app->end(json_encode($errCode));
+        die(json_encode($errCode));
     }
 
     /**
