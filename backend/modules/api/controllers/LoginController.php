@@ -34,7 +34,7 @@ class LoginController extends ApiController
                 if($info &&$info['ret']==0){
                     $model = new User();
                     $model->nickname=$info['nickname']??'';
-                    $model->sex=array_search($model::$_sex,$info['gender'])??0;
+                    $model->sex=array_search($info['gender'],$model::$_sex)??0;
                     $model->province=$info['province']??'';
                     $model->city=$info['city']??'';
                     $model->age=(int)date('Y')-(int)$info['year'];
