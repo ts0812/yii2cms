@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="022196b4-8894-4629-98b6-cdfbcdf64fed" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/modules/api/controllers/LoginController.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/modules/api/controllers/LoginController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/web/swg" beforeDir="false" afterPath="$PROJECT_DIR$/backend/web/swg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/web/swg/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/backend/web/swg/dist/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/common/CacheKey.php" beforeDir="false" afterPath="$PROJECT_DIR$/common/common/CacheKey.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -36,8 +34,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/backend/modules/api/controllers/LoginController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="617">
-              <caret line="48" selection-start-line="48" selection-end-line="48" />
+            <state relative-caret-position="509">
+              <caret line="42" column="39" lean-forward="true" selection-start-line="42" selection-start-column="39" selection-end-line="42" selection-end-column="39" />
               <folding>
                 <element signature="e#50#88#0#PHP" expanded="true" />
               </folding>
@@ -318,7 +316,7 @@
       <path value="$PROJECT_DIR$/vendor/doctrine/annotations" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="246" />
     <option name="y" value="61" />
     <option name="width" value="1400" />
@@ -499,12 +497,12 @@
       <workItem from="1559742380586" duration="2691000" />
       <workItem from="1559779125104" duration="11875000" />
       <workItem from="1559870032110" duration="4221000" />
-      <workItem from="1559957996542" duration="7317000" />
+      <workItem from="1559957996542" duration="7741000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="370466000" />
+    <option name="totallyTimeSpent" value="370890000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -895,8 +893,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/backend/modules/api/controllers/LoginController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="617">
-          <caret line="48" selection-start-line="48" selection-end-line="48" />
+        <state relative-caret-position="509">
+          <caret line="42" column="39" lean-forward="true" selection-start-line="42" selection-start-column="39" selection-end-line="42" selection-end-column="39" />
           <folding>
             <element signature="e#50#88#0#PHP" expanded="true" />
           </folding>

@@ -21,10 +21,11 @@ class LoginController extends ApiController
             $accessToken = $qc->qq_callback();
             //获取用户openid 平台唯一标志符
             $openId = $qc->get_openid();
-            $user = User::findOne()->where(['openid'=>$openId])->asArray()->one();
-            if($user){
-                unset($user['password']);
-                $token = CacheKey::setToken($user->id,$user);
+            $model = User::findOne(['openid'=>$openId]);
+            if($model){
+                $userinfo = $model->attributes;
+                unset($userinfo['password']);
+                $token = CacheKey::setToken($model->id,$userinfo);
                 if($token)
                     $this->errCode(1,$token);
             }else{
