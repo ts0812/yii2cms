@@ -11,13 +11,38 @@ namespace common\common;
 class CacheKey
 {
     /**
-     * token校验
+     * token缓存校验
      * @param string $token
      * @return string
      */
     public static function tokenUserId(string $token): string
     {
         return 'tokenUserId'.$token;
+    }
+    /**
+     * 设置用户token名称
+     * @param string $token
+     * @return string
+     */
+    public static function setTokenName(string $userId): string
+    {
+        return  md5(base64_encode($userId . md5(date('Y-m-d H:i:s')) .md5(SECRET_SALT)));
+    }
+    /**
+     * 设置用户token
+     * @param string $token
+     * @return string
+     */
+    public static function setToken(string $userId,$data)
+    {
+        $token =  md5(base64_encode($userId . md5(date('Y-m-d H:i:s')) .md5(SECRET_SALT)));
+        $cacheToken = self::tokenUserId($token);
+        $data['token']=$token;
+        $res = yii::$app->cache->set($cacheToken,$data,TOKEN_OUT_TIME);
+        if($res)
+            return $token;
+        return false;
+
     }
     /**
      * 手机验证码
