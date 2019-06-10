@@ -108,12 +108,17 @@ class BlogController extends Controller
         if(!(int)$id)
             ErrCode::errCode(1009);
         $where = ['content_id'=>$id];
-        $select=['author','title','type','keywords','description','addtime','image'];
-        $article = Article::find()->select($select)->where($where)->asArray()->one();
-        if($article){
+	$model=Article::findOne($where);
+        if($model){
+	   $model->view_num = (int)($model->view_num)+1;
+	   if(!$model->save())
+		ErrCode::errCode(0,$model->getErrors());
+	   $select=['author','title','type','keywords','description','addtime','image','view_num'];
+           $article = Article::find()->select($select)->where($where)->asArray()->one();
+
            $ArticleContent= ArticleContent::findOne($id);
            $article['content']=$ArticleContent['content']??'';
-           $article['type']=(Article::$_type)[$article['type']];
+           $article['type']=(Article::$_type)[$article['type']]??'';
         }
         ErrCode::errCode(1,$article);
     }

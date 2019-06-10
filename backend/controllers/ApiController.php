@@ -20,6 +20,7 @@ class ApiController extends Controller
     protected $_arrUrl = [
         'api/login/qq-login',
         'api/login/login-by-openid',
+	'api/login/logout',
     ];
     //用户数据
     protected $_userData = null;
@@ -49,7 +50,7 @@ class ApiController extends Controller
         //是否需要验证token
         if (!in_array(Yii::$app->request->getPathInfo() , $this->_arrUrl)){
             // 返回 Accept header 值
-            $token = Yii::$app->request->headers('token', Yii::$app->request->get('token',''));
+            $token = Yii::$app->request->headers->get('token', Yii::$app->request->get('token',''));
             if(!$token)
                 $this->errCode(1007);
             $this->_userData = Yii::$app->cache->get(CacheKey::tokenUserId($token));

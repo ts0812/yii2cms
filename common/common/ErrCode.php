@@ -10,23 +10,23 @@ class ErrCode
         $errCode = [
             0 => [ 'status' => 0 ],
             1 => [ 'status' => 1 , 'message' => 'ok', 'data' => null],
-            1000 => [ 'status' => 1000 , 'message' => Yii::t('app' , 'User not logged in')], //用户未登录
-            1001 => [ 'status' => 1001 , 'message' => Yii::t('app' , 'Wrong account or password')], //账号或者密码错误
-            1002 => [ 'status' => 1002 , 'message' => Yii::t('app' , 'Token expired')],  //Token过期
-            1003 => [ 'status' => 1003 , 'message' => Yii::t('app' , 'User has been disabled')],  //用户已被停用
-            1004 => [ 'status' => 1004 , 'message' => Yii::t('app' , 'User does not exist')], //用户不存在
+            1000 => [ 'status' => 1000 , 'message' => Yii::t('app' , '用户未登录')], //用户未登录
+            1001 => [ 'status' => 1001 , 'message' => Yii::t('app' , '账号密码错误')], //账号或者密码错误
+            1002 => [ 'status' => 1002 , 'message' => Yii::t('app' , '身份过期')],  //Token过期
+            1003 => [ 'status' => 1003 , 'message' => Yii::t('app' , '账号已被停用，请联系管理员')],  //用户已被停用
+            1004 => [ 'status' => 1004 , 'message' => Yii::t('app' , '用户名不存在')], //用户不存在
             1005 => [ 'status' => 1005 , 'message' => Yii::t('app' , 'This user cannot operate this data')],
-            1006 => [ 'status' => 1006 , 'message' => Yii::t('app' , 'operation failed')],
-            1007 => [ 'status' => 1007 , 'message' => Yii::t('app' , 'Token does not exist')],  //Token不存在
-            1008 => [ 'status' => 1008 , 'message' => Yii::t('app' , 'This data does not exist')],
-            1009 => [ 'status' => 1009 , 'message' => Yii::t('app' , 'Parameter error')], //参数错误
+            1006 => [ 'status' => 1006 , 'message' => Yii::t('app' , '操作失败')],
+            1007 => [ 'status' => 1007 , 'message' => Yii::t('app' , '未登录或身份过期,请重新登录')],  //Token不存在
+            1008 => [ 'status' => 1008 , 'message' => Yii::t('app' , '数据不存在')],
+            1009 => [ 'status' => 1009 , 'message' => Yii::t('app' , '参数错误')], //参数错误
             1010 => [ 'status' => 1010 , 'message' => Yii::t('app' , 'This user has no device')],
-            1011 => [ 'status' => 1011 , 'message' => Yii::t('app' , 'The account is logged in elsewhere')],
+            1011 => [ 'status' => 1011 , 'message' => Yii::t('app' , '账号在其他地方登录')],
             1012 => [ 'status' => 1012 , 'message' => Yii::t('app' , 'This account has no configuration information.')],
             1013 => [ 'status' => 1013 , 'message' => Yii::t('app' , 'Code is incorrect')],
             1014 => [ 'status' => 1014 , 'message' => Yii::t('app' , 'Route data does not exist')],
             1015 => [ 'status' => 1015 , 'message' => Yii::t('app' , 'Ground station does not exist')],
-            1016 => [ 'status' => 1016 , 'message' => Yii::t('app' , 'You do not have permission')],
+            1016 => [ 'status' => 1016 , 'message' => Yii::t('app' , '无权限访问')],
             1017 => [ 'status' => 1017 , 'message' => Yii::t('app' , '设备不存在')],
             1018 => [ 'status' => 1018 , 'message' => Yii::t('app' , '文件上传失败')],
             1019 => [ 'status' => 1019 , 'message' => Yii::t('app' , '文件下载失败')],

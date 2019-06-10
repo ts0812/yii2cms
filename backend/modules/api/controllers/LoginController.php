@@ -4,6 +4,7 @@ namespace backend\modules\api\controllers;
 use backend\controllers\ApiController;
 use common\common\CacheKey;
 use common\models\userCenter\User;
+use common\models\userCenter\LoginLog;
 use Yii;
 require_once(Yii::getAlias("@common")."/API/qqConnectAPI.php");
 /**
@@ -73,10 +74,25 @@ class LoginController extends ApiController
         $openId = yii::$app->request->get('openid','');
         $model = User::findOne(['openid'=>$openId]);
         if($model){
+	    if($model->status!=1)
+		$this->errCode(1003);
+	    //记录上次登录ip与时间
+            $logModel = LoginLog::find()->where(['user_id'=>$model->id])->orderBy('id desc')->one();
+            if($logModel){
+                $model->lastLoginTime=$logModel->addtime;
+                $model->lastLoginIp = $logModel->ip;
+                $model->save();
+            }
             $userinfo = $model->attributes;
             unset($userinfo['password']);
             $token = CacheKey::setToken($model->id,$userinfo);
             if($token){
+		//记录当前登录ip与时间
+		$loginLog=new LoginLog();
+		$loginLog->ip=Yii::$app->request->userIP;
+		$loginLog->user_id=$model->id;
+		if(!$loginLog->save())
+		    $this->errCode(0,$loginLog->getErrors());
                 $data = [
                     'token'=>$token,
                     'image'=>$model->image,
@@ -87,4 +103,24 @@ class LoginController extends ApiController
         }
         $this->errCode(1000);
     }
+    //token身份退出
+    public function actionLogout(){
+	$token = yii::$app->request->get('token','');   
+	CacheKey::delToken($token);
+	$this->errCode(1);	
+    }
+    //获取用户信息
+    public function actionGetUserInfo(){
+	$data = [
+		 'username'=>$this->_userData['username']??'',
+		 'nickname'=>$this->_userData['nickname']??'',
+		 'sex'=>User::$_sex[$this->_userData['sex']]??'未知物种',
+		 'image'=>$this->_userData['image']??'',
+		 'description'=>$this->_userData['description']??'',
+		 'lastLoginTime'=>$this->_userData['lastLoginTime']??'',
+		 'lastLoginIp'=>$this->_userData['lastLoginIp']??'',
+		];
+	$this->errCode(1,$data);
+    }
+	
 }

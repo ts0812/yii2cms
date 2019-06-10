@@ -46,6 +46,16 @@ class CacheKey
 
     }
     /**
+     * 删除用户token身份
+     * @param string $token
+     * @return string
+     */
+    public static function delToken(string $token){
+	$cacheToken = self::tokenUserId($token);
+	$res = yii::$app->cache->delete($cacheToken);
+	return $res;
+    }
+    /**
      * 手机验证码
      * @param string $phone
      * @return string

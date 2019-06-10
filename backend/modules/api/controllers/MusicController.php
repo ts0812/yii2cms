@@ -154,7 +154,7 @@ class MusicController extends Controller
         $query = Music::find()->where($where);
         if($name)
             $query->andWhere(['like','song',$name]);
-        $musicList = $query->select($select)->offset(($page-1)*$size)->limit($size)->asArray()->all();
+        $musicList = $query->select($select)->orderBy(['sort'=>SORT_DESC,'id'=>SORT_DESC])->offset(($page-1)*$size)->limit($size)->asArray()->all();
         foreach ($musicList as $k=>$v)
                 $musicList[$k]['url']=$this->musicUrl . $v['id'];
 
