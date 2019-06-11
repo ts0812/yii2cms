@@ -94,6 +94,7 @@ class LoginController extends ApiController
 		if(!$loginLog->save())
 		    $this->errCode(0,$loginLog->getErrors());
                 $data = [
+                    'userId'=>$model->id,
                     'token'=>$token,
                     'image'=>$model->image,
                     'nickname'=>$model->nickname
