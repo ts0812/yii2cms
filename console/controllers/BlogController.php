@@ -18,16 +18,16 @@ class BlogController extends Controller{
                 if (!$redisRow) continue;
                 $arr[] = json_decode($redisRow, true);
             }
-            if($arr){
-                $tableName=Traffic::tableName();
-                $attributeArr=array_keys($arr[0]);
-                Yii::$app->blog->createCommand()->batchInsert(
-                    $tableName,
-                    $attributeArr,
-                    $arr
-                )->execute();
-            }
             sleep(1);
+        }
+        if($arr){
+            $tableName=Traffic::tableName();
+            $attributeArr=array_keys($arr[0]);
+            Yii::$app->blog->createCommand()->batchInsert(
+                $tableName,
+                $attributeArr,
+                $arr
+            )->execute();
         }
 
     }

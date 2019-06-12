@@ -27,7 +27,7 @@ class Index extends \yii\db\ActiveRecord
         return 'index';
     }
     public static $_status=['关闭','展现'];
-    public static $_type=['最新','推荐','火爆'];
+    public static $_type=['最新','推荐','火爆','音乐','视频','美文','生活','技能'];
     /**
      * @return \yii\db\Connection the database connection used by this AR class.
      */
