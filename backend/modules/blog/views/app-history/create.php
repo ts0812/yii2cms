@@ -14,6 +14,7 @@ $this->params['breadcrumbs'][] = $this->title;
     <h1><?= Html::encode($this->title) ?></h1>
     <?php
     $model->status=1;
+    $model->addtime=date('Y-m-d H:i:s');
     ?>
     <?= $this->render('_form', [
         'model' => $model,

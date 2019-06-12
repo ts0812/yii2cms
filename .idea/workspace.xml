@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="022196b4-8894-4629-98b6-cdfbcdf64fed" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/modules/blog/views/article/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/modules/blog/views/article/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/web/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/modules/blog/views/app-history/create.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/modules/blog/views/app-history/create.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/web/swg" beforeDir="false" afterPath="$PROJECT_DIR$/backend/web/swg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/web/swg/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/backend/web/swg/dist/index.html" afterDir="false" />
     </list>
@@ -94,26 +92,26 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/common/models/blog/Index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="637">
-              <caret line="29" column="64" selection-start-line="29" selection-start-column="64" selection-end-line="29" selection-end-column="64" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/backend/controllers/SiteController.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-2052" />
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/backend/modules/blog/views/article/index.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="396">
               <caret line="34" column="26" selection-start-line="34" selection-start-column="26" selection-end-line="34" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/backend/modules/blog/views/app-history/create.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="576">
+              <caret line="16" column="37" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -213,7 +211,6 @@
         <option value="$PROJECT_DIR$/backend/modules/blog/views/app-history/update.php" />
         <option value="$PROJECT_DIR$/common/models/blog/AppHistory.php" />
         <option value="$PROJECT_DIR$/backend/modules/blog/views/app-history/index.php" />
-        <option value="$PROJECT_DIR$/backend/modules/blog/views/app-history/create.php" />
         <option value="$PROJECT_DIR$/backend/modules/blog/views/app-history/_form.php" />
         <option value="$PROJECT_DIR$/backend/modules/api/controllers/Tra.php" />
         <option value="$PROJECT_DIR$/common/models/blog/TrafficStatistics.php" />
@@ -250,6 +247,7 @@
         <option value="$PROJECT_DIR$/console/controllers/BlogController.php" />
         <option value="$PROJECT_DIR$/backend/modules/api/controllers/BlogController.php" />
         <option value="$PROJECT_DIR$/backend/modules/blog/views/article/index.php" />
+        <option value="$PROJECT_DIR$/backend/modules/blog/views/app-history/create.php" />
       </list>
     </option>
   </component>
@@ -400,7 +398,7 @@
               <item name="modules" type="462c0819:PsiDirectoryNode" />
               <item name="blog" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="article" type="462c0819:PsiDirectoryNode" />
+              <item name="app-history" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="yii2cms" type="b2602c69:ProjectViewProjectNode" />
@@ -546,12 +544,12 @@
       <workItem from="1560039013965" duration="2502000" />
       <workItem from="1560174248853" duration="2845000" />
       <workItem from="1560257289591" duration="3128000" />
-      <workItem from="1560337182380" duration="6470000" />
+      <workItem from="1560337182380" duration="7702000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="399331000" />
+    <option name="totallyTimeSpent" value="400563000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -613,13 +611,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/yii">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/backend/config/main.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-445">
@@ -965,6 +956,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
           <caret line="34" column="26" selection-start-line="34" selection-start-column="26" selection-end-line="34" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/modules/blog/views/app-history/create.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="16" column="37" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
         </state>
       </provider>
     </entry>
