@@ -37,11 +37,13 @@ class BlogController extends Controller{
         $model = Push::find()->where($where)->orderBy('sort desc')->one();
         if($model){
             $model->status=2;
+	    $model->pushtime = date('Y-m-d H:i:s');
             if($model->save()){
                 $data['content']=$model->content;
                 $data['url']=$model->url;
                 $data['label']=$model->label;
-                Yii::$app->redis->setex('push',60*60*24,json_encode($data,JSON_UNESCAPED_UNICODE));
+		$redisName = Push::$_redisName;
+                Yii::$app->redis->setex($redisName,60*60*24,json_encode($data,JSON_UNESCAPED_UNICODE));
             }
         }
     }

@@ -6,6 +6,7 @@ use common\models\blog\AppHistory;
 use common\models\blog\Article;
 use common\models\blog\ArticleContent;
 use common\models\blog\Index;
+use common\models\blog\Push;
 use common\models\blog\Navigation;
 use Yii;
 use yii\web\Controller;
@@ -199,5 +200,13 @@ class BlogController extends Controller
         }
         ErrCode::errCode(1,$historyList);
 
+    }
+    public function actionPush(){
+	$redisName = Push::$_redisName;   
+	$res = Yii::$app->redis->get($redisName);
+	$data = [];
+	if($res)
+	    $data = json_decode($res,true);
+	ErrCode::errCode(1,$data);	
     }
 }
