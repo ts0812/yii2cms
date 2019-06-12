@@ -170,12 +170,14 @@ class BlogController extends Controller
         if($size>20)
             $size=20;
         $where['status'] = 1;
-        $select=['title','author','content_id','description','addtime','image'];
+        $select=['title','type','author','content_id','description','addtime','image'];
         $model = Article::find()->select($select)->where($where);
         if($type)
             $model->andWhere(['article.type'=>$type]);
         $indexList=$model->offset(($page-1)*$size)->limit($size)
             ->orderBy('sort asc')->asArray()->all();
+        foreach ($indexList as $k=>$v)
+            $indexList[$k]['type']=Article::$_type[$v['type']]??'';
         ErrCode::errCode(1,$indexList);
     }
     /**
