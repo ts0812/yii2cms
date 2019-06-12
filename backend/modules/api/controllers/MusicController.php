@@ -149,7 +149,7 @@ class MusicController extends Controller
         $type=(int)yii::$app->request->get('type',0);  //暂无用
         if($size>20)
             $size=20;
-        $where = ['>','state',0];
+        $where = ['and',['>','state',0],['playlist'=>1]];
         $select=['id','image','title'];
         $query = Music::find()->where($where);
         if($name)
@@ -201,7 +201,7 @@ class MusicController extends Controller
         if(!$id || !in_array($switch,[0,1]))
             ErrCode::errCode(1009);
         $select=['id','image','title'];
-        $where=['>','state',0];
+        $where=['and',['>','state',0],['playlist'=>1]];
         $model = Music::find()->select($select)->where($where)->asArray();
         if($switch==0)
             $model->andWhere(['<','id',$id]);
