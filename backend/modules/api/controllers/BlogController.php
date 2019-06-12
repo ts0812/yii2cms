@@ -55,9 +55,11 @@ class BlogController extends Controller
         if($size>20)
             $size=20;
         $where['status'] = 1;
-        $select=['image','title','url','description'];
+        $select=['image','type','title','url','description'];
         $indexList = Index::find()->select($select)->where($where)
             ->offset(($page-1)*$size)->limit($size)->orderBy('sort asc')->asArray()->all();
+        foreach ($indexList as $k=>$v)
+            $indexList[$k]['type']=Index::$_type[$v['type']]??'';
         ErrCode::errCode(1,$indexList);
     }
 

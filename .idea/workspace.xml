@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="022196b4-8894-4629-98b6-cdfbcdf64fed" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/backend/modules/api/controllers/LoginController.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/modules/api/controllers/LoginController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/modules/api/controllers/BlogController.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/modules/api/controllers/BlogController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/web/swg" beforeDir="false" afterPath="$PROJECT_DIR$/backend/web/swg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/web/swg/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/backend/web/swg/dist/index.html" afterDir="false" />
     </list>
@@ -31,11 +32,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/backend/modules/api/controllers/LoginController.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="617">
-              <caret line="96" column="41" lean-forward="true" selection-start-line="96" selection-start-column="41" selection-end-line="96" selection-end-column="41" />
+              <caret line="96" column="41" selection-start-line="96" selection-start-column="41" selection-end-line="96" selection-end-column="41" />
               <folding>
                 <element signature="e#50#88#0#PHP" expanded="true" />
               </folding>
@@ -43,32 +44,32 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/backend/modules/api/controllers/BlogController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3924">
-              <caret line="116" column="48" selection-start-line="116" selection-start-column="48" selection-end-line="116" selection-end-column="48" />
+            <state relative-caret-position="610">
+              <caret line="61" column="64" selection-start-line="61" selection-start-column="64" selection-end-line="61" selection-end-column="64" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/backend/modules/api/controllers/MusicController.php">
+        <entry file="file://$PROJECT_DIR$/common/models/blog/Index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="18" column="41" lean-forward="true" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
+            <state relative-caret-position="539">
+              <caret line="29" column="24" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/console/controllers/BlogController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1224">
+              <caret line="41" column="28" selection-start-line="41" selection-start-column="28" selection-end-line="41" selection-end-column="28" />
               <folding>
-                <element signature="e#50#80#0#PHP" expanded="true" />
+                <element signature="e#38#66#0#PHP" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/common/common/CacheKey.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="828">
-              <caret line="24" column="25" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -76,7 +77,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/backend/controllers/ApiController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2484">
+            <state relative-caret-position="761">
               <caret line="74" column="50" selection-start-line="74" selection-start-column="50" selection-end-line="74" selection-end-column="50" />
               <folding>
                 <element signature="e#38#65#0#PHP" expanded="true" />
@@ -224,7 +225,6 @@
         <option value="$PROJECT_DIR$/common/models/blog/ArticleSearch.php" />
         <option value="$PROJECT_DIR$/common/models/blog/IndexSearch.php" />
         <option value="$PROJECT_DIR$/common/models/blog/TrafficSearch.php" />
-        <option value="$PROJECT_DIR$/backend/modules/api/controllers/BlogController.php" />
         <option value="$PROJECT_DIR$/backend/config/main.php" />
         <option value="$PROJECT_DIR$/common/models/blog/BlogSearch.php" />
         <option value="$PROJECT_DIR$/common/config/main.php" />
@@ -246,6 +246,7 @@
         <option value="$PROJECT_DIR$/backend/controllers/ApiController.php" />
         <option value="$PROJECT_DIR$/backend/modules/api/controllers/MusicController.php" />
         <option value="$PROJECT_DIR$/backend/modules/api/controllers/LoginController.php" />
+        <option value="$PROJECT_DIR$/backend/modules/api/controllers/BlogController.php" />
       </list>
     </option>
   </component>
@@ -342,7 +343,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -364,25 +364,28 @@
             <path>
               <item name="yii2cms" type="b2602c69:ProjectViewProjectNode" />
               <item name="yii2cms" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="backend" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="yii2cms" type="b2602c69:ProjectViewProjectNode" />
               <item name="yii2cms" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="API" type="462c0819:PsiDirectoryNode" />
+              <item name="backend" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="controllers" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="yii2cms" type="b2602c69:ProjectViewProjectNode" />
               <item name="yii2cms" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="console" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="yii2cms" type="b2602c69:ProjectViewProjectNode" />
               <item name="yii2cms" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="console" type="462c0819:PsiDirectoryNode" />
+              <item name="controllers" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="yii2cms" type="b2602c69:ProjectViewProjectNode" />
@@ -399,6 +402,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -503,12 +507,13 @@
       <workItem from="1559957996542" duration="21237000" />
       <workItem from="1560039013965" duration="2502000" />
       <workItem from="1560174248853" duration="2845000" />
-      <workItem from="1560257289591" duration="2528000" />
+      <workItem from="1560257289591" duration="3128000" />
+      <workItem from="1560337182380" duration="1775000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="392261000" />
+    <option name="totallyTimeSpent" value="394636000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -524,7 +529,7 @@
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.19152361" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.1389485" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Database Changes" order="0" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" weight="0.32924107" />
@@ -570,11 +575,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/vendor/zircote/swagger-php/Examples/petstore.swagger.io/ApiResponse.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-391" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/common/models/blog/Navigation.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="684">
@@ -619,16 +619,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/common/config/params.php">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/console/controllers/BlogController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="41" column="28" selection-start-line="41" selection-start-column="28" selection-end-line="41" selection-end-column="28" />
-          <folding>
-            <element signature="e#38#66#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/backend/modules/blog/controllers/PushController.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -836,10 +826,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backend/modules/api/controllers/BlogController.php">
+    <entry file="file://$PROJECT_DIR$/backend/modules/api/controllers/MusicController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3924">
-          <caret line="116" column="48" selection-start-line="116" selection-start-column="48" selection-end-line="116" selection-end-column="48" />
+        <state relative-caret-position="504">
+          <caret line="18" column="41" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
+          <folding>
+            <element signature="e#50#80#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -847,16 +840,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="828">
           <caret line="24" column="25" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/controllers/ApiController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2484">
-          <caret line="74" column="50" selection-start-line="74" selection-start-column="50" selection-end-line="74" selection-end-column="50" />
-          <folding>
-            <element signature="e#38#65#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -891,23 +874,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backend/modules/api/controllers/MusicController.php">
+    <entry file="file://$PROJECT_DIR$/backend/modules/api/controllers/LoginController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="18" column="41" lean-forward="true" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
+        <state relative-caret-position="617">
+          <caret line="96" column="41" selection-start-line="96" selection-start-column="41" selection-end-line="96" selection-end-column="41" />
           <folding>
-            <element signature="e#50#80#0#PHP" expanded="true" />
+            <element signature="e#50#88#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backend/modules/api/controllers/LoginController.php">
+    <entry file="file://$PROJECT_DIR$/backend/controllers/ApiController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="617">
-          <caret line="96" column="41" lean-forward="true" selection-start-line="96" selection-start-column="41" selection-end-line="96" selection-end-column="41" />
+        <state relative-caret-position="761">
+          <caret line="74" column="50" selection-start-line="74" selection-start-column="50" selection-end-line="74" selection-end-column="50" />
           <folding>
-            <element signature="e#50#88#0#PHP" expanded="true" />
+            <element signature="e#38#65#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/models/blog/Index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="539">
+          <caret line="29" column="24" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/console/controllers/BlogController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1224">
+          <caret line="41" column="28" selection-start-line="41" selection-start-column="28" selection-end-line="41" selection-end-column="28" />
+          <folding>
+            <element signature="e#38#66#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/modules/api/controllers/BlogController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="610">
+          <caret line="61" column="64" selection-start-line="61" selection-start-column="64" selection-end-line="61" selection-end-column="64" />
         </state>
       </provider>
     </entry>
