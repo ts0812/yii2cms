@@ -32,7 +32,6 @@ $this->params['breadcrumbs'][] = $this->title;
                 'format'=>'raw'
             ],
             'title',
-            'keywords',
             'description',
             ['attribute'=>'type','value'=>function($model){
                 return (\common\models\blog\Article::$_type)[$model->type]??'';

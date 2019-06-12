@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="022196b4-8894-4629-98b6-cdfbcdf64fed" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/backend/modules/api/controllers/BlogController.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/modules/api/controllers/BlogController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/modules/blog/views/article/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/modules/blog/views/article/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/web/index.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/web/swg" beforeDir="false" afterPath="$PROJECT_DIR$/backend/web/swg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/web/swg/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/backend/web/swg/dist/index.html" afterDir="false" />
     </list>
@@ -43,7 +45,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/backend/modules/api/controllers/BlogController.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="610">
@@ -53,22 +55,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/common/models/blog/Article.php">
+        <entry file="file://$PROJECT_DIR$/backend/web/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="539">
-              <caret line="33" column="22" lean-forward="true" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
+            <state relative-caret-position="396">
+              <caret line="11" column="42" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/backend/modules/api/controllers/MusicController.php">
+        <entry file="file://$PROJECT_DIR$/common/models/blog/Article.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5148">
-              <caret line="147" column="12" selection-start-line="147" selection-start-column="12" selection-end-line="147" selection-end-column="12" />
-              <folding>
-                <element signature="e#50#80#0#PHP" expanded="true" />
-              </folding>
+            <state relative-caret-position="539">
+              <caret line="33" column="22" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -104,6 +103,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/backend/controllers/SiteController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2052" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/backend/modules/blog/views/article/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="396">
+              <caret line="34" column="26" selection-start-line="34" selection-start-column="26" selection-end-line="34" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/console/controllers/BlogController.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="612">
@@ -111,27 +126,6 @@
               <folding>
                 <element signature="e#38#66#0#PHP" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/backend/controllers/ApiController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="761">
-              <caret line="74" column="50" selection-start-line="74" selection-start-column="50" selection-end-line="74" selection-end-column="50" />
-              <folding>
-                <element signature="e#38#65#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/common/models/userCenter/User.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1476">
-              <caret line="41" column="38" selection-start-line="41" selection-start-column="24" selection-end-line="41" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -215,7 +209,6 @@
         <option value="$PROJECT_DIR$/backend/modules/blog/views/article/_form.php" />
         <option value="$PROJECT_DIR$/backend/modules/blog/views/article/js/upload.js" />
         <option value="$PROJECT_DIR$/common/models/blog/Article.php" />
-        <option value="$PROJECT_DIR$/backend/modules/blog/views/article/index.php" />
         <option value="$PROJECT_DIR$/backend/modules/blog/controllers/AppHistoryController.php" />
         <option value="$PROJECT_DIR$/backend/modules/blog/views/app-history/update.php" />
         <option value="$PROJECT_DIR$/common/models/blog/AppHistory.php" />
@@ -256,6 +249,7 @@
         <option value="$PROJECT_DIR$/common/models/blog/Index.php" />
         <option value="$PROJECT_DIR$/console/controllers/BlogController.php" />
         <option value="$PROJECT_DIR$/backend/modules/api/controllers/BlogController.php" />
+        <option value="$PROJECT_DIR$/backend/modules/blog/views/article/index.php" />
       </list>
     </option>
   </component>
@@ -368,22 +362,57 @@
               <item name="yii2cms" type="b2602c69:ProjectViewProjectNode" />
               <item name="yii2cms" type="462c0819:PsiDirectoryNode" />
               <item name="backend" type="462c0819:PsiDirectoryNode" />
-              <item name="modules" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yii2cms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yii2cms" type="462c0819:PsiDirectoryNode" />
-              <item name="backend" type="462c0819:PsiDirectoryNode" />
-              <item name="modules" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yii2cms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yii2cms" type="462c0819:PsiDirectoryNode" />
-              <item name="backend" type="462c0819:PsiDirectoryNode" />
-              <item name="modules" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
               <item name="controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yii2cms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yii2cms" type="462c0819:PsiDirectoryNode" />
+              <item name="backend" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yii2cms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yii2cms" type="462c0819:PsiDirectoryNode" />
+              <item name="backend" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yii2cms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yii2cms" type="462c0819:PsiDirectoryNode" />
+              <item name="backend" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yii2cms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yii2cms" type="462c0819:PsiDirectoryNode" />
+              <item name="backend" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yii2cms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yii2cms" type="462c0819:PsiDirectoryNode" />
+              <item name="backend" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="article" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yii2cms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yii2cms" type="462c0819:PsiDirectoryNode" />
+              <item name="backend" type="462c0819:PsiDirectoryNode" />
+              <item name="runtime" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yii2cms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yii2cms" type="462c0819:PsiDirectoryNode" />
+              <item name="backend" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="yii2cms" type="b2602c69:ProjectViewProjectNode" />
@@ -517,12 +546,12 @@
       <workItem from="1560039013965" duration="2502000" />
       <workItem from="1560174248853" duration="2845000" />
       <workItem from="1560257289591" duration="3128000" />
-      <workItem from="1560337182380" duration="5012000" />
+      <workItem from="1560337182380" duration="6470000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="397873000" />
+    <option name="totallyTimeSpent" value="399331000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -538,7 +567,7 @@
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.1389485" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.2671674" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Database Changes" order="0" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" weight="0.32924107" />
@@ -584,17 +613,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/backend/web/index.html" />
-    <entry file="file://$PROJECT_DIR$/backend/web/index.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="21" column="16" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/yii">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
@@ -843,9 +861,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backend/controllers/SiteController.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/common/models/userCenter/User.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1476">
@@ -920,7 +935,7 @@
     <entry file="file://$PROJECT_DIR$/common/models/blog/Article.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="539">
-          <caret line="33" column="22" lean-forward="true" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
+          <caret line="33" column="22" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -928,6 +943,28 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="610">
           <caret line="179" column="60" selection-start-line="179" selection-start-column="60" selection-end-line="179" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/web/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/web/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="11" column="42" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/controllers/SiteController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2052" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/modules/blog/views/article/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="34" column="26" selection-start-line="34" selection-start-column="26" selection-end-line="34" selection-end-column="26" />
         </state>
       </provider>
     </entry>
