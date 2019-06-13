@@ -52,11 +52,11 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/backend/modules/blog/controllers/ArticleController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="37" column="87" selection-start-line="37" selection-start-column="87" selection-end-line="37" selection-end-column="87" />
+            <state relative-caret-position="432">
+              <caret line="39" column="52" selection-start-line="39" selection-start-column="52" selection-end-line="39" selection-end-column="52" />
               <folding>
                 <element signature="e#52#90#0#PHP" expanded="true" />
               </folding>
@@ -103,10 +103,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/common/widgets/ueditor/Uploader.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="721">
+            <state relative-caret-position="3420">
               <caret line="95" selection-start-line="95" selection-end-line="95" />
             </state>
           </provider>
@@ -239,8 +239,8 @@
         <option value="$PROJECT_DIR$/backend/modules/blog/views/article/index.php" />
         <option value="$PROJECT_DIR$/backend/modules/blog/views/app-history/create.php" />
         <option value="$PROJECT_DIR$/common/widgets/ueditor/UeditorAction.php" />
-        <option value="$PROJECT_DIR$/backend/modules/blog/controllers/ArticleController.php" />
         <option value="$PROJECT_DIR$/common/widgets/ueditor/Uploader.php" />
+        <option value="$PROJECT_DIR$/backend/modules/blog/controllers/ArticleController.php" />
       </list>
     </option>
   </component>
@@ -538,12 +538,12 @@
       <workItem from="1560174248853" duration="2845000" />
       <workItem from="1560257289591" duration="3128000" />
       <workItem from="1560337182380" duration="7702000" />
-      <workItem from="1560428004724" duration="2486000" />
+      <workItem from="1560428004724" duration="2656000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="403049000" />
+    <option name="totallyTimeSpent" value="403219000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -931,16 +931,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backend/modules/blog/controllers/ArticleController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="37" column="87" selection-start-line="37" selection-start-column="87" selection-end-line="37" selection-end-column="87" />
-          <folding>
-            <element signature="e#52#90#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/common/widgets/ueditor/UeditorAction.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
@@ -960,8 +950,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/common/widgets/ueditor/Uploader.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="721">
+        <state relative-caret-position="3420">
           <caret line="95" selection-start-line="95" selection-end-line="95" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/modules/blog/controllers/ArticleController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="39" column="52" selection-start-line="39" selection-start-column="52" selection-end-line="39" selection-end-column="52" />
+          <folding>
+            <element signature="e#52#90#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

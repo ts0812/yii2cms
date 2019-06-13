@@ -37,7 +37,7 @@ class ArticleController extends Controller
                     //自定义文件保存绝对目录
                     'uploadFilePath'=>dirname(dirname(Yii::$app->BasePath)).'/resources',
                     //自定义第三方服务器域名（或本域名）
-                    'resourceUrl'=>'http://resource.mybdxc.cn',
+                    'resourceUrl'=>'http://resources.mybdxc.cn',
                     //上传图片配置
                     'imageUrlPrefix' => "", /* 图片访问路径前缀 */
                     'imagePathFormat' => "/upload/image/{yyyy}{mm}{dd}/{time}{rand:6}", /* 上传保存路径,可以自定义保存路径和文件名格式 */
