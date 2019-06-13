@@ -35,7 +35,7 @@ class ArticleController extends Controller
                 'class' => 'common\widgets\ueditor\UeditorAction',
                 'config'=>[
                     //自定义文件保存绝对目录
-                    'uploadFilePath'=>dirname(dirname(Yii::$app->BasePath)),
+                    'uploadFilePath'=>dirname(dirname(Yii::$app->BasePath)).'/resources',
                     //自定义第三方服务器域名（或本域名）
                     'resourceUrl'=>'http://resource.mybdxc.cn',
                     //上传图片配置
