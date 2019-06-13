@@ -115,6 +115,10 @@ class UeditorAction extends Action
                 $fieldName = $this->config['fileFieldName'];
                 break;
         }
+        //合并自定义的绝对目录
+        $config['uploadFilePath'] = $this->config['uploadFilePath']??'';
+        //配置文件域名
+        $config['resourceUrl'] = $this->config['resourceUrl']??'';
         /* 生成上传实例对象并完成上传 */
         $up = new Uploader($fieldName, $config, $base64);
         /**

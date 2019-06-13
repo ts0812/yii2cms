@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="022196b4-8894-4629-98b6-cdfbcdf64fed" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/backend/modules/blog/views/app-history/create.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/modules/blog/views/app-history/create.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/modules/blog/controllers/ArticleController.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/modules/blog/controllers/ArticleController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/web/swg" beforeDir="false" afterPath="$PROJECT_DIR$/backend/web/swg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/web/swg/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/backend/web/swg/dist/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/widgets/ueditor/UeditorAction.php" beforeDir="false" afterPath="$PROJECT_DIR$/common/widgets/ueditor/UeditorAction.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/widgets/ueditor/Uploader.php" beforeDir="false" afterPath="$PROJECT_DIR$/common/widgets/ueditor/Uploader.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,49 +35,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/backend/modules/api/controllers/LoginController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="617">
-              <caret line="96" column="41" selection-start-line="96" selection-start-column="41" selection-end-line="96" selection-end-column="41" />
-              <folding>
-                <element signature="e#50#88#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/backend/modules/api/controllers/BlogController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="610">
+            <state relative-caret-position="1690">
               <caret line="179" column="60" selection-start-line="179" selection-start-column="60" selection-end-line="179" selection-end-column="60" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/backend/web/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="11" column="42" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/common/models/blog/Article.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="539">
-              <caret line="33" column="22" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/backend/modules/api/models/music.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -82,7 +46,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/backend/modules/api/controllers/TrafficController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1219">
+            <state>
               <caret selection-end-line="11" selection-end-column="1" />
               <folding>
                 <element signature="e#50#76#0#PHP" expanded="true" />
@@ -94,24 +58,59 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/backend/controllers/SiteController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2052" />
+            <state relative-caret-position="-1404" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/backend/controllers/UploadController.php">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/backend/modules/blog/controllers/ArticleController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="540">
+              <caret line="42" column="72" selection-start-line="42" selection-start-column="72" selection-end-line="42" selection-end-column="72" />
+              <folding>
+                <element signature="e#52#90#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common/widgets/ueditor/UeditorAction.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="135" column="38" selection-start-line="135" selection-start-column="38" selection-end-line="135" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common/widgets/ueditor/Uploader.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="311">
+              <caret line="300" column="77" selection-start-line="300" selection-start-column="77" selection-end-line="300" selection-end-column="77" />
+            </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/backend/modules/blog/views/article/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
+            <state relative-caret-position="1152">
               <caret line="34" column="26" selection-start-line="34" selection-start-column="26" selection-end-line="34" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/backend/modules/blog/views/app-history/create.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="576">
-              <caret line="16" column="37" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
+            <state relative-caret-position="612">
+              <caret line="17" column="6" lean-forward="true" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -119,7 +118,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/console/controllers/BlogController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="612">
+            <state relative-caret-position="864">
               <caret line="27" column="29" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="29" />
               <folding>
                 <element signature="e#38#66#0#PHP" expanded="true" />
@@ -197,8 +196,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/backend/modules/api/Module.php" />
-        <option value="$PROJECT_DIR$/backend/modules/api/controllers/IndexController.php" />
         <option value="$PROJECT_DIR$/backend/modules/blog/views/article/create.php" />
         <option value="$PROJECT_DIR$/backend/modules/blog/views/index/index.php" />
         <option value="$PROJECT_DIR$/backend/modules/blog/views/navigation/index.php" />
@@ -234,7 +231,6 @@
         <option value="$PROJECT_DIR$/backend/modules/blog/views/push/index.php" />
         <option value="$PROJECT_DIR$/backend/modules/music/views/music/index.php" />
         <option value="$PROJECT_DIR$/backend/modules/blog/controllers/NavigationController.php" />
-        <option value="$PROJECT_DIR$/backend/modules/blog/controllers/ArticleController.php" />
         <option value="$PROJECT_DIR$/backend/modules/api/controllers/QqLoginController.php" />
         <option value="$PROJECT_DIR$/common/API/qqConnectAPI.php" />
         <option value="$PROJECT_DIR$/common/config/main-local.php" />
@@ -248,6 +244,9 @@
         <option value="$PROJECT_DIR$/backend/modules/api/controllers/BlogController.php" />
         <option value="$PROJECT_DIR$/backend/modules/blog/views/article/index.php" />
         <option value="$PROJECT_DIR$/backend/modules/blog/views/app-history/create.php" />
+        <option value="$PROJECT_DIR$/common/widgets/ueditor/UeditorAction.php" />
+        <option value="$PROJECT_DIR$/common/widgets/ueditor/Uploader.php" />
+        <option value="$PROJECT_DIR$/backend/modules/blog/controllers/ArticleController.php" />
       </list>
     </option>
   </component>
@@ -344,6 +343,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -438,7 +438,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -545,11 +544,12 @@
       <workItem from="1560174248853" duration="2845000" />
       <workItem from="1560257289591" duration="3128000" />
       <workItem from="1560337182380" duration="7702000" />
+      <workItem from="1560428004724" duration="1637000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="400563000" />
+    <option name="totallyTimeSpent" value="402200000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -565,7 +565,7 @@
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.2671674" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.27092275" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Database Changes" order="0" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" weight="0.32924107" />
@@ -611,20 +611,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/backend/config/main.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-445">
-          <caret line="52" column="13" selection-start-line="52" selection-start-column="13" selection-end-line="52" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/models/blog/Traffic.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="16" column="6" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/common/config/params.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -697,13 +683,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backend/modules/blog/controllers/ArticleController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="4" column="37" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/common/models/blog/ArticleContent.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="504">
@@ -760,9 +739,6 @@
           <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/controllers/UploadController.php">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/common/API/class/QC.class.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -886,6 +862,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/backend/web/index.html" />
+    <entry file="file://$PROJECT_DIR$/backend/modules/api/controllers/LoginController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3312">
+          <caret line="96" column="41" selection-start-line="96" selection-start-column="41" selection-end-line="96" selection-end-column="41" />
+          <folding>
+            <element signature="e#50#88#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/web/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="11" column="42" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/models/blog/Article.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1188">
+          <caret line="33" column="22" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/backend/modules/api/models/music.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -895,7 +896,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/backend/modules/api/controllers/TrafficController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1219">
+        <state>
           <caret selection-end-line="11" selection-end-column="1" />
           <folding>
             <element signature="e#50#76#0#PHP" expanded="true" />
@@ -903,19 +904,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backend/modules/api/controllers/LoginController.php">
+    <entry file="file://$PROJECT_DIR$/backend/modules/blog/views/article/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="617">
-          <caret line="96" column="41" selection-start-line="96" selection-start-column="41" selection-end-line="96" selection-end-column="41" />
-          <folding>
-            <element signature="e#50#88#0#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="1152">
+          <caret line="34" column="26" selection-start-line="34" selection-start-column="26" selection-end-line="34" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/console/controllers/BlogController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
+        <state relative-caret-position="864">
           <caret line="27" column="29" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="29" />
           <folding>
             <element signature="e#38#66#0#PHP" expanded="true" />
@@ -923,46 +921,49 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common/models/blog/Article.php">
+    <entry file="file://$PROJECT_DIR$/backend/modules/blog/views/app-history/create.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="539">
-          <caret line="33" column="22" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
+        <state relative-caret-position="612">
+          <caret line="17" column="6" lean-forward="true" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/backend/modules/api/controllers/BlogController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="610">
+        <state relative-caret-position="1690">
           <caret line="179" column="60" selection-start-line="179" selection-start-column="60" selection-end-line="179" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/web/index.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/web/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="11" column="42" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/backend/controllers/SiteController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2052" />
+        <state relative-caret-position="-1404" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backend/modules/blog/views/article/index.php">
+    <entry file="file://$PROJECT_DIR$/common/widgets/ueditor/UeditorAction.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="34" column="26" selection-start-line="34" selection-start-column="26" selection-end-line="34" selection-end-column="26" />
+        <state relative-caret-position="216">
+          <caret line="135" column="38" selection-start-line="135" selection-start-column="38" selection-end-line="135" selection-end-column="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backend/modules/blog/views/app-history/create.php">
+    <entry file="file://$PROJECT_DIR$/common/widgets/ueditor/Uploader.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="16" column="37" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
+        <state relative-caret-position="311">
+          <caret line="300" column="77" selection-start-line="300" selection-start-column="77" selection-end-line="300" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/controllers/UploadController.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/modules/blog/controllers/ArticleController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="42" column="72" selection-start-line="42" selection-start-column="72" selection-end-line="42" selection-end-column="72" />
+          <folding>
+            <element signature="e#52#90#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
