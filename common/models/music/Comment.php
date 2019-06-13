@@ -40,7 +40,7 @@ class Comment extends \yii\db\ActiveRecord
     {
         return [
             [['music_id'], 'integer'],
-            [['content', 'create_time'], 'string', 'max' => 255],
+            [['content', 'create_time'], 'string'],
             [['state'], 'string', 'max' => 100],
         ];
     }
