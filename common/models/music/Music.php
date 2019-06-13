@@ -77,7 +77,7 @@ class Music extends \yii\db\ActiveRecord
     public function rules()
     {
         return [
-            [['uid', 'sort'], 'integer'],
+            [['uid', 'sort','view_num'], 'integer'],
             [['lrc', 'description'], 'string'],
             [['state'], 'required'],
             [['qq', 'small_image', 'state', 'create_time'], 'string', 'max' => 100],
@@ -112,6 +112,7 @@ class Music extends \yii\db\ActiveRecord
             'playlist' => '是否添为歌单',
             'sort' => '排序',
             'state' => '状态',
+            'view_num'=>'浏览量',
             'create_time' => '创建时间',
         ];
     }

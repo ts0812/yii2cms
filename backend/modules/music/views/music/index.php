@@ -41,7 +41,7 @@ $this->registerJs($this->render('js/index.js'));
 				],
                 'format'=>'raw',
                 'value'=>function($model){
-                    return '<a href="http://music.mybdxc.cn/index.php?id='.$model['id'].'" target="_blank" title="'.$model['title'].'" >'.$model['title'].'</a>';
+                    return '<a href="http://mybdxc.cn/music/index.php?id='.$model['id'].'" target="_blank" title="'.$model['title'].'" >'.$model['title'].'</a>';
                 }
 			],
             [
@@ -89,6 +89,7 @@ $this->registerJs($this->render('js/index.js'));
                 'value'=>function($model){
                     return (\common\models\music\Music::$_playlist)[$model['playlist']] ?? '';}
             ],
+            'view_num',
             [
                 'attribute' => 'pv',
                 'format'=>'raw',

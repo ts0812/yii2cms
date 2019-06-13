@@ -48,7 +48,7 @@ class Article extends \yii\db\ActiveRecord
     {
         return [
             [['title','image'], 'required'],
-            [['type', 'status', 'sort','content_id'], 'integer'],
+            [['type', 'status', 'sort','content_id','view_num'], 'integer'],
             [['uptime', 'addtime'], 'safe'],
             [['author', 'title', 'keywords', 'description','image'], 'string', 'max' => 255],
             [['title'], 'unique'],
@@ -67,6 +67,7 @@ class Article extends \yii\db\ActiveRecord
             'title' => '标题',
             'keywords' => '关键词',
             'description' => '描述',
+            'view_num'=>'浏览量',
             'type' => '类型',
             'status' => '状态',
             'sort' => '排序',

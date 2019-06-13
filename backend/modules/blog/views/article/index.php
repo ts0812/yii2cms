@@ -32,7 +32,7 @@ $this->params['breadcrumbs'][] = $this->title;
                 'format'=>'raw'
             ],
             'title',
-            'description',
+            'view_num',
             ['attribute'=>'type','value'=>function($model){
                 return (\common\models\blog\Article::$_type)[$model->type]??'';
             },
