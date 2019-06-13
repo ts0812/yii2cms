@@ -65,11 +65,22 @@ class CommentController extends Controller
     public function actionCreate()
     {
         $model = new Comment();
-
-        if ($model->load(Yii::$app->request->post()) && $model->save()) {
-            return $this->redirect('index');
+        if (Yii::$app->request->isPost) {
+            $data = Yii::$app->request->post();
+            if(isset($data['Comment']['content'])&&isset($data['Comment']['music_id'])){
+                $contentArr = explode("\r\n",$data['Comment']['content']);
+                $dataArr = [];
+                foreach ($contentArr as $k=>$v){
+                    if($v)
+                        $dataArr[$k]=[$data['Comment']['music_id'],$v];
+                }
+                if($dataArr){
+                    $res= Yii::$app->music->createCommand()->batchInsert(Comment::tableName(), ['music_id','content'], $dataArr)->execute();//执行批量添加
+                    if($res)
+                        return $this->redirect('index');
+                }
+            }
         }
-
         return $this->render('create', [
             'model' => $model,
         ]);
