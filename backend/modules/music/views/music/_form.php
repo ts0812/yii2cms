@@ -2,6 +2,9 @@
 
 use yii\helpers\Html;
 use yii\widgets\ActiveForm;
+use backend\assets\LayuiAsset;
+LayuiAsset::register($this);
+$this->registerJs($this->render('js/upload.js'));
 $this->registerJs($this->render('js/create.js'));
 /* @var $this yii\web\View */
 /* @var $model common\models\Config */
@@ -25,8 +28,8 @@ $this->registerJs($this->render('js/create.js'));
     <?= $form->field($model, 'lrc')->textarea(['rows'=>3]) ?>
     <?= $form->field($model, 'mp3')->textInput(['maxlength' => true]) ?>
 
-    <?= $form->field($model, 'image')->textInput(['maxlength' => true]) ?>
-
+    <?= $form->field($model, 'image',['template' => '{label} <div class="row"><div class="col-sm-12">{input}<button type="button" class="layui-btn upload_button" id="test3"><i class="layui-icon"></i>上传文件</button>{error}{hint}</div></div>'])->textInput(['maxlength' => true,'class'=>'layui-input upload_input']) ?>
+    <?= Html::img(@$model->image, ['width'=>'100','height'=>'100','class'=>'img_pic'])?>
     <?= $form->field($model, 'ttf')->textInput(['maxlength' => true]) ?>
 
     <?= $form->field($model, 'color1')->textInput(['maxlength' => true]) ?>
@@ -43,9 +46,8 @@ $this->registerJs($this->render('js/create.js'));
 
     <?= $form->field($model, 'description')->textarea(['rows' => 6]) ?>
 
-    <?= $form->field($model, 'small_image')->textInput(['maxlength' => true]) ?>
 
-
+<?= $form->field($model, 'small_image',['template' => '{label} <div class="row"><div class="col-sm-12">{input}<button type="button" class="layui-btn upload_button" id="test3"><i class="layui-icon"></i>上传文件</button>{error}{hint}</div></div>'])->textInput(['maxlength' => true,'class'=>'layui-input upload_input']) ?>
     <?= $form->field($model, 'sort')->dropDownList($sortArr) ?>
 
     <?= $form->field($model, 'playlist')->radioList(\common\models\music\Music::$_playlist) ?>
