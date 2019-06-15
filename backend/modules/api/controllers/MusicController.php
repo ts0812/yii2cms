@@ -109,7 +109,7 @@ class MusicController extends Controller
      *     path="/api/music/get-music-list",
      *     summary="获取音乐列表",
      *     tags={"音乐api"},
-     *     description="调用本站开放的数据库音乐",
+     *     description="调用本站开放的数据库音乐,sort、id降序排列",
      *     @OA\Parameter(
      *         description="歌曲名 搜索",
      *         in="query",

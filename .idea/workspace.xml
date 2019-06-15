@@ -3,11 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="022196b4-8894-4629-98b6-cdfbcdf64fed" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/backend/modules/api/controllers/BlogController.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/modules/api/controllers/BlogController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/modules/blog/controllers/PushController.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/modules/blog/controllers/PushController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/modules/blog/views/push/update.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/modules/blog/views/push/update.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/modules/api/controllers/MusicController.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/modules/api/controllers/MusicController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/web/swg" beforeDir="false" afterPath="$PROJECT_DIR$/backend/web/swg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/web/swg/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/backend/web/swg/dist/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/models/blog/Push.php" beforeDir="false" afterPath="$PROJECT_DIR$/common/models/blog/Push.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -73,11 +71,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/backend/modules/api/controllers/BlogController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="599">
-              <caret line="225" column="46" selection-start-line="225" selection-start-column="46" selection-end-line="225" selection-end-column="46" />
+            <state relative-caret-position="-5400">
+              <caret line="59" column="96" selection-start-line="59" selection-start-column="96" selection-end-line="59" selection-end-column="96" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/backend/modules/api/controllers/MusicController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1478">
+              <caret line="111" column="48" selection-start-line="111" selection-start-column="48" selection-end-line="111" selection-end-column="48" />
+              <folding>
+                <element signature="e#50#80#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -207,7 +217,6 @@
         <option value="$PROJECT_DIR$/common/common/CacheKey.php" />
         <option value="$PROJECT_DIR$/backend/controllers/ApiController.php" />
         <option value="$PROJECT_DIR$/backend/modules/api/controllers/LoginController.php" />
-        <option value="$PROJECT_DIR$/backend/modules/api/controllers/MusicController.php" />
         <option value="$PROJECT_DIR$/common/models/blog/Index.php" />
         <option value="$PROJECT_DIR$/console/controllers/BlogController.php" />
         <option value="$PROJECT_DIR$/backend/modules/blog/views/app-history/create.php" />
@@ -225,6 +234,7 @@
         <option value="$PROJECT_DIR$/backend/modules/blog/controllers/PushController.php" />
         <option value="$PROJECT_DIR$/backend/modules/blog/views/push/update.php" />
         <option value="$PROJECT_DIR$/common/models/blog/Push.php" />
+        <option value="$PROJECT_DIR$/backend/modules/api/controllers/MusicController.php" />
         <option value="$PROJECT_DIR$/backend/modules/api/controllers/BlogController.php" />
       </list>
     </option>
@@ -308,7 +318,7 @@
       <path value="$PROJECT_DIR$/vendor/doctrine/annotations" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="246" />
     <option name="y" value="61" />
     <option name="width" value="1400" />
@@ -340,6 +350,21 @@
               <item name="yii2cms" type="462c0819:PsiDirectoryNode" />
               <item name="backend" type="462c0819:PsiDirectoryNode" />
               <item name="modules" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yii2cms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yii2cms" type="462c0819:PsiDirectoryNode" />
+              <item name="backend" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yii2cms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yii2cms" type="462c0819:PsiDirectoryNode" />
+              <item name="backend" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="controllers" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="yii2cms" type="b2602c69:ProjectViewProjectNode" />
@@ -487,12 +512,12 @@
       <workItem from="1560337182380" duration="7702000" />
       <workItem from="1560428004724" duration="8581000" />
       <workItem from="1560565579918" duration="1187000" />
-      <workItem from="1560597569467" duration="3443000" />
+      <workItem from="1560597569467" duration="4469000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="413774000" />
+    <option name="totallyTimeSpent" value="414800000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -504,7 +529,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
@@ -662,16 +687,6 @@
           <caret line="74" column="50" selection-start-line="74" selection-start-column="50" selection-end-line="74" selection-end-column="50" />
           <folding>
             <element signature="e#38#65#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/modules/api/controllers/MusicController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5148">
-          <caret line="147" column="12" selection-start-line="147" selection-start-column="12" selection-end-line="147" selection-end-column="12" />
-          <folding>
-            <element signature="e#50#80#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -888,8 +903,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/backend/modules/api/controllers/BlogController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="599">
-          <caret line="225" column="46" selection-start-line="225" selection-start-column="46" selection-end-line="225" selection-end-column="46" />
+        <state relative-caret-position="-5400">
+          <caret line="59" column="96" selection-start-line="59" selection-start-column="96" selection-end-line="59" selection-end-column="96" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/modules/api/controllers/MusicController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1478">
+          <caret line="111" column="48" selection-start-line="111" selection-start-column="48" selection-end-line="111" selection-end-column="48" />
+          <folding>
+            <element signature="e#50#80#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

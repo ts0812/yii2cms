@@ -24,7 +24,7 @@ class BlogController extends Controller
      *     path="/api/blog/index",
      *     summary="首页展现作品",
      *     tags={"博客api"},
-     *     description="展现在首页的作品,按sort升序排列",
+     *     description="展现在首页的作品,按sort、id降序排列",
      *      @OA\Parameter(
      *         description="请求页码",
      *         in="query",
@@ -57,7 +57,7 @@ class BlogController extends Controller
         $where['status'] = 1;
         $select=['image','type','title','url','description'];
         $indexList = Index::find()->select($select)->where($where)
-            ->offset(($page-1)*$size)->limit($size)->orderBy('sort asc')->asArray()->all();
+            ->offset(($page-1)*$size)->limit($size)->orderBy(['sort'=>SORT_DESC,'id'=>SORT_DESC])->asArray()->all();
         foreach ($indexList as $k=>$v)
             $indexList[$k]['type']=Index::$_type[$v['type']]??'';
         ErrCode::errCode(1,$indexList);
@@ -68,7 +68,7 @@ class BlogController extends Controller
      *     path="/api/blog/nav",
      *     summary="博客目录",
      *     tags={"博客api"},
-     *     description="博客展现目录 升序排列",
+     *     description="博客展现目录 sort，id降序排列"",
      *     @OA\Response(
      *         response=200,
      *         description="OK"
@@ -78,7 +78,7 @@ class BlogController extends Controller
     public function actionNav(){
         $where['status'] = 1;
         $select=['icon','title','url'];
-        $navList = Navigation::find()->select($select)->where($where)->orderBy('sort asc')
+        $navList = Navigation::find()->select($select)->where($where)->orderBy(['sort'=>SORT_DESC,'id'=>SORT_DESC])
             ->asArray()->all();
         ErrCode::errCode(1,$navList);
     }
@@ -87,7 +87,7 @@ class BlogController extends Controller
      *     path="/api/blog/get-article",
      *     summary="获取文章内容",
      *     tags={"博客api"},
-     *     description="根据文章id获取内容",
+     *     description="根据文章id获取内容，sort，id降序排列",
 
 
      *      @OA\Parameter(
@@ -117,7 +117,7 @@ class BlogController extends Controller
 	   if(!$model->save())
 		ErrCode::errCode(0,$model->getErrors());
 	   $select=['author','title','type','keywords','description','addtime','image','view_num'];
-           $article = Article::find()->select($select)->where($where)->asArray()->one();
+           $article = Article::find()->select($select)->orderBy(['sort'=>SORT_DESC,'id'=>SORT_DESC])->where($where)->asArray()->one();
 
            $ArticleContent= ArticleContent::findOne($id);
            $article['content']=$ArticleContent['content']??'';
@@ -130,7 +130,7 @@ class BlogController extends Controller
      *     path="/api/blog/get-article-list",
      *     summary="获取文章列表",
      *     tags={"博客api"},
-     *     description="获取文章列表,按sort升序排列",
+     *     description="获取文章列表,按sort、id降序排列",
      *      @OA\Parameter(
      *         description="请求页码",
      *         in="query",
@@ -175,7 +175,7 @@ class BlogController extends Controller
         if($type)
             $model->andWhere(['article.type'=>$type]);
         $indexList=$model->offset(($page-1)*$size)->limit($size)
-            ->orderBy('sort asc')->asArray()->all();
+            ->orderBy(['sort'=>SORT_DESC,'id'=>SORT_DESC])->asArray()->all();
         foreach ($indexList as $k=>$v)
             $indexList[$k]['type']=Article::$_type[$v['type']]??'';
         ErrCode::errCode(1,$indexList);
