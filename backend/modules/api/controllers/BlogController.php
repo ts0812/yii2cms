@@ -205,12 +205,25 @@ class BlogController extends Controller
         ErrCode::errCode(1,$historyList);
 
     }
+    /**
+     * @OA\Get(
+     *     path="/api/blog/push",
+     *     summary="获取当日推送",
+     *     tags={"博客api"},
+     *     description="获取当日推送",
+     *     @OA\Response(
+     *         response=200,
+     *         description="OK"
+     *     )
+     * )
+     */
     public function actionPush(){
 	$redisName = Push::$_redisName;   
 	$res = Yii::$app->redis->get($redisName);
 	$data = [];
 	if($res)
 	    $data = json_decode($res,true);
+	$data['label']=Push::$_label[$data['label']]??'';
 	ErrCode::errCode(1,$data);	
     }
 }

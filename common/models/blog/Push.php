@@ -25,7 +25,7 @@ class Push extends \yii\db\ActiveRecord
         return 'push';
     }
     public static $_status=[1=>'待推',2=>'推送'];
-    public static $_label = [1=>'趣味笑话', 2=>'情感', 3=>'心灵鸡汤', 4=>'生活常识', 5=>'新闻'];
+    public static $_label = [1=>'公告', 2=>'趣话', 3=>'寄语', 4=>'常识', 5=>'新闻'];
     //缓存redis名称
     public static $_redisName = 'push';
     /**
