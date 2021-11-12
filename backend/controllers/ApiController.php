@@ -20,7 +20,8 @@ class ApiController extends Controller
     protected $_arrUrl = [
         'api/login/qq-login',
         'api/login/login-by-openid',
-	'api/login/logout',
+	    'api/login/logout',
+        'rbac/route/index',
     ];
     //用户数据
     protected $_userData = null;

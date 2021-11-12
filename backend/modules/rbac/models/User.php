@@ -90,7 +90,11 @@ class User extends ActiveRecord implements IdentityInterface
     {
         return static::findOne(['id' => $id, 'status' => self::STATUS_ACTIVE]);
     }
-
+    public static function getUserList()
+    {
+        $userList = static::find()->where([ 'status' => self::STATUS_ACTIVE])->asArray()->all();
+        return $userList?array_column($userList,'username','id'):[];
+    }
     /**
      * @inheritdoc
      */

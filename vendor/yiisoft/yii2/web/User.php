@@ -691,7 +691,6 @@ class User extends Component
         }
 
         $this->setIdentity($identity);
-
         if ($identity !== null && ($this->authTimeout !== null || $this->absoluteAuthTimeout !== null)) {
             $expire = $this->authTimeout !== null ? $session->get($this->authTimeoutParam) : null;
             $expireAbsolute = $this->absoluteAuthTimeout !== null ? $session->get($this->absoluteAuthTimeoutParam) : null;
@@ -740,7 +739,6 @@ class User extends Component
         if ($allowCaching && empty($params)) {
             $this->_access[$permissionName] = $access;
         }
-
         return $access;
     }
 

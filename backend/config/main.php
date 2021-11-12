@@ -36,6 +36,9 @@ return [
         "api" => [
             'class' => 'backend\modules\api\Module',
         ],
+        "social" => [
+            'class' => 'backend\modules\social\Module',
+        ],
     ],
     "aliases" => [    
         '@rbac' => '@backend/modules/rbac',

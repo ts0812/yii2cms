@@ -67,7 +67,6 @@ class AccessControl extends \yii\base\ActionFilter
     {
         $actionId = $action->getUniqueId();
         $user = $this->getUser();
-
         if (Helper::checkRoute('/' . $actionId, Yii::$app->getRequest()->get(), $user)) {
             return true;
         }
@@ -83,6 +82,7 @@ class AccessControl extends \yii\base\ActionFilter
      */
     protected function denyAccess($user)
     {
+
         if ($user->getIsGuest()) {
             $user->loginRequired();
         } else {
