@@ -20,32 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="022196b4-8894-4629-98b6-cdfbcdf64fed" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sshConfigs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sshConfigs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/yii2cms.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/yii2cms.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/config/main.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/config/main.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/controllers/ApiController.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/controllers/ApiController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/controllers/ToolsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/controllers/ToolsController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/modules/rbac/components/AccessControl.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/modules/rbac/components/AccessControl.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/modules/rbac/controllers/RouteController.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/modules/rbac/controllers/RouteController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/modules/rbac/controllers/RuleController.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/modules/rbac/controllers/RuleController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/modules/rbac/models/Assignment.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/modules/rbac/models/Assignment.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/modules/rbac/models/Route.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/modules/rbac/models/Route.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/modules/rbac/models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/modules/rbac/models/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/autoload.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/autoload.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/ClassLoader.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/ClassLoader.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/LICENSE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_files.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_files.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_namespaces.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_namespaces.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_real.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_real.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/installed.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/installed.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/extensions.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/extensions.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/web/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/web/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/web/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/backend/web/.htaccess" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/web/nginx.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/backend/web/nginx.htaccess" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -174,7 +152,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Users/tanshuai/Desktop/live.html" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -335,6 +313,12 @@
       <workItem from="1617068387443" duration="3192000" />
       <workItem from="1617931745244" duration="97000" />
       <workItem from="1636702656946" duration="605000" />
+      <workItem from="1636704515543" duration="1780000" />
+      <workItem from="1636706327298" duration="984000" />
+      <workItem from="1637215226365" duration="1770000" />
+      <workItem from="1637217025730" duration="1874000" />
+      <workItem from="1637218932696" duration="1457000" />
+      <workItem from="1637290111502" duration="856000" />
     </task>
     <servers />
   </component>
@@ -369,10 +353,14 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="421" y="95" key="FileChooserDialogImpl" timestamp="1617931838804">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state x="421" y="99" key="FileChooserDialogImpl" timestamp="1637215288370">
+      <screen x="0" y="0" width="1280" height="688" />
     </state>
-    <state x="421" y="95" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1617931838804" />
+    <state x="421" y="99" key="FileChooserDialogImpl/0.0.1280.688@0.0.1280.688" timestamp="1637215288370" />
+    <state x="297" y="153" key="run.anything.popup" timestamp="1637218077580">
+      <screen x="0" y="0" width="1280" height="688" />
+    </state>
+    <state x="297" y="153" key="run.anything.popup/0.0.1280.688@0.0.1280.688" timestamp="1637218077580" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

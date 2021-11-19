@@ -1,6 +1,5 @@
-location /{
-	if (!-e $request_filename) {
-	   rewrite  ^(.*)$  /index.php/$1  last;
-	   break;
-	}
+location / {
+            index  index.html index.htm index.php;
+            #autoindex  on;
+        try_files  $uri $uri/ /index.php$is_args$args;
 }
