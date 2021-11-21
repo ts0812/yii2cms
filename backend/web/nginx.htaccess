@@ -1,0 +1,5 @@
+location / {
+            index  index.html index.htm index.php;
+            #autoindex  on;
+        try_files  $uri $uri/ /index.php$is_args$args;
+}

@@ -17,19 +17,20 @@ layui.config({
 					},
                     end: function () {//无论是确认还是取消，只要层被销毁了，end都会执行，不携带任何参数。layer.open关闭事件
                         let songId=getCookie('songId');
+
                         if(songId){
-                            url='https://api.mlwei.com/music/api/wy/?key=523077333&cache=1&type=url&id='+songId;
-                            $("#music-mp3").val(url);
-                            url='https://api.mlwei.com/music/api/wy/?key=523077333&cache=0&type=pic&id='+songId;
-                            $("#music-image").val(url);
-                            $("#music-small_image").val(url);
                             $.ajax({
-                                url:'/api/music/get-lrc?id=' + songId,
+                                url:'/api/music/getmusicdetail?id=' + songId,
                                 type:'get',
                                 dataType:'json',
                                 success:function(data){
                                     if(data.status==1){
-                                        $("#music-lrc").val(data.data);
+                                        $("#music-lrc").val(data.data.lrc);
+                                        $("#music-image").val(data.data.picUrl);
+                                        $("#music-small_image").val(data.data.picUrl);
+                                        $("#music-mp3").val(data.data.mp3Url);
+                                        $("#music-song").val(data.data.name);
+                                        $("#music-title").val(data.data.name);
                                     }else{
                                         layer.msg(data.message);
                                     }

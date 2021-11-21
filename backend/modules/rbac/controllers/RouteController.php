@@ -37,6 +37,7 @@ class RouteController extends Controller
     {
         $model = new Route();
         return $this->render('index', ['routes' => $model->getRoutes()]);
+
     }
 
     /**

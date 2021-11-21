@@ -77,7 +77,9 @@
       <path value="$PROJECT_DIR$/vendor/zircote/swagger-php" />
       <path value="$PROJECT_DIR$/vendor/doctrine/lexer" />
       <path value="$PROJECT_DIR$/vendor/doctrine/annotations" />
+      <path value="$PROJECT_DIR$/vendor/kartik-v/yii2-krajee-base" />
+      <path value="$PROJECT_DIR$/vendor/kartik-v/yii2-widget-datetimepicker" />
     </include_path>
   </component>
-  <component name="PhpProjectSharedConfiguration" php_language_level="5.4.0" />
+  <component name="PhpProjectSharedConfiguration" php_language_level="7" />
 </project>

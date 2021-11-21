@@ -150,6 +150,7 @@ class Route extends \yii\base\BaseObject
             // Switch back to original app.
             Yii::$app = $yiiApp;
             unset($yiiApp);
+
         } else {
             // Use basic route scheme.
             // Set basic route prefix
@@ -157,6 +158,7 @@ class Route extends \yii\base\BaseObject
             // Get basic app routes.
             $routes = $this->getAppRoutes();
         }
+
         $exists = [];
         foreach (array_keys($manager->getPermissions()) as $name) {
             if ($name[0] !== $this->routePrefix) {
@@ -187,6 +189,7 @@ class Route extends \yii\base\BaseObject
         if ($cache === null || ($result = $cache->get($key)) === false) {
             $result = [];
             $this->getRouteRecursive($module, $result);
+
             if ($cache !== null) {
                 $cache->set($key, $result, Configs::instance()->cacheDuration, new TagDependency([
                     'tags' => self::CACHE_TAG,
@@ -225,6 +228,7 @@ class Route extends \yii\base\BaseObject
             Yii::error($exc->getMessage(), __METHOD__);
         }
         Yii::endProfile($token, __METHOD__);
+
     }
 
     /**

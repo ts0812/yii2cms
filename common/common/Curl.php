@@ -4,6 +4,8 @@ namespace common\common;
 class Curl{
     public static function get($url){
         $ch = curl_init();
+        $this_header = array("content-type: application/x-www-form-urlencoded; charset=UTF-8");
+        curl_setopt($ch, CURLOPT_HTTPHEADER,$this_header);
         curl_setopt($ch, CURLOPT_URL, $url);
         curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, FALSE);
         curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, FALSE);
