@@ -1,6 +1,7 @@
 <?php
 
 namespace backend\modules\api\controllers;
+use common\common\FilePath;
 use common\models\music\Music;
 use common\common\Curl;
 use common\common\ErrCode;
@@ -12,10 +13,9 @@ use yii\web\Controller;
 class MusicController extends Controller
 {
 
-    //http://www.mlwei.com/1446.html 搜索来自名流互联
-    //https://api.mlwei.com/music/api/wy/?key=523077333&cache=1&type=songlist&id=1335350269  搜索来自名流互联
     //http://music.163.com/song/media/outer/url?id=1335350269.mp3    来自网易云音乐 歌曲链接
     //http://music.163.com/api/song/lyric?os=pc&id=1335350269&lv=-1&kv=-1&tv=-1 歌词lrc
+    //http://music.163.com/api/song/media?id=34367845 歌词lrc
     public $enableCsrfValidation = false;
     public $musicUrl = 'http://mybdxc.cn/music/index.php?id=';  //音乐地址
     /**
@@ -218,6 +218,45 @@ class MusicController extends Controller
         }
         if($musicList['id'])
             $musicList['url']=$this->musicUrl . $musicList['id'];
+        ErrCode::errCode(1,$musicList);
+    }
+    public function actionGetmusicdetail()
+    {
+        $id=(int)yii::$app->request->get('id',0);
+        $data=\backend\modules\api\models\music::getMusicDetail($id);
+        ErrCode::errCode(1,$data);
+    }
+
+    //下载音乐图片和mp3
+    public function actionDownmusic(){
+        $resourcePath='../../../../../resources/music/';
+        //图片地址和歌曲id
+        $songPicUrl=yii::$app->request->get('songPicUrl','');
+        $songId=(int)yii::$app->request->get('songId',0);
+        //下载音乐图片
+        if($songPicUrl){
+            $save_dir=$resourcePath.'image';
+            if (!is_dir($save_dir)){
+                mkdir($save_dir,0777,true);
+            }
+            $type = substr(strrchr($songPicUrl, '.'), 1);
+            $filename=md5(date("YmdHis",time()) . mt_rand(1000, 9999)) . '.' . $type;
+            $res = FilePath::getFileToLocal($songPicUrl, $save_dir, $filename,1);//0  1 都是好使的
+        }
+
+        //下载音乐mp3
+        if($songId){
+
+            $save_dir=$resourcePath.'mp3';
+            $mp3Url=\backend\modules\api\models\music::$mp3Url.$songId.'.mp3';
+            if (!is_dir($save_dir)){
+                mkdir($save_dir,0777,true);
+            }
+            $type = substr(strrchr($songPicUrl, '.'), 1);
+            $filename=md5(date("YmdHis",time()) . mt_rand(1000, 9999)) . '.' . $type;
+            $res = FilePath::getFileToLocal($mp3Url, $save_dir, $filename,1);//0  1 都是好使的
+
+        }
         ErrCode::errCode(1,$musicList);
     }
 }

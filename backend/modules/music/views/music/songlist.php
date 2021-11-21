@@ -37,6 +37,8 @@ $this->registerJs("
 //            src    : 'https://api.mlwei.com/music/api/wy/?key=523077333&cache=0&type=url&id=1335350269'
 //        }
 //    ];
+// console.log(musicList);
+ 
     new SMusic({
         musicList:musicList
     });");
@@ -94,14 +96,13 @@ $this->registerJs("
             var index = parent.layer.getFrameIndex(window.name); //获取窗口索引
             parent.layer.close(index);//关闭弹出的子页面窗口
         }
+        //设置cookie及过期时间
         function setCookie(cname,cvalue,second){
             var d = new Date();
             d.setTime(d.getTime()+second*1000+8*60*1000*60);
             var expires = "expires="+d.toGMTString();
             document.cookie = cname+"="+cvalue+"; "+expires;
         }
-
-
 
 <?php $this->endBlock() ?>
 <?php $this->registerJs($this->blocks['js'], \yii\web\View::POS_END); ?>

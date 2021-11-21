@@ -20,10 +20,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="022196b4-8894-4629-98b6-cdfbcdf64fed" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sshConfigs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sshConfigs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/web/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/backend/web/.htaccess" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/web/nginx.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/backend/web/nginx.htaccess" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/controllers/ApiController.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/controllers/ApiController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/controllers/ToolsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/controllers/ToolsController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/modules/api/controllers/MusicController.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/modules/api/controllers/MusicController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/modules/api/models/music.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/modules/api/models/music.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/modules/music/controllers/MusicController.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/modules/music/controllers/MusicController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/modules/music/views/music/create.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/modules/music/views/music/create.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/modules/music/views/music/js/create.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/modules/music/views/music/js/create.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/modules/music/views/music/js/smusic.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/modules/music/views/music/js/smusic.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/modules/music/views/music/songlist.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/modules/music/views/music/songlist.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/runtime/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/common/Curl.php" beforeDir="false" afterPath="$PROJECT_DIR$/common/common/Curl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/common/FilePath.php" beforeDir="false" afterPath="$PROJECT_DIR$/common/common/FilePath.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -164,19 +176,19 @@
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\web\yii2cms\common" />
-      <recent name="D:\web\yii2cms\backend\modules\blog\views\navigation" />
-      <recent name="D:\web\yii2cms\backend\modules\music\views\music" />
-      <recent name="D:\web\yii2cms\common\models\mini" />
-      <recent name="D:\web\yii2cms\backend\modules\rbac\models\rules" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\web\yii2cms\backend\modules\social\controllers" />
       <recent name="D:\web\yii2cms\backend\modules\social\views\user" />
       <recent name="D:\web\yii2cms\backend\modules" />
       <recent name="D:\web\yii2cms\backend\modules\music\views\music\js" />
       <recent name="D:\web\yii2cms\backend\controllers" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\web\yii2cms\common" />
+      <recent name="D:\web\yii2cms\backend\modules\blog\views\navigation" />
+      <recent name="D:\web\yii2cms\backend\modules\music\views\music" />
+      <recent name="D:\web\yii2cms\common\models\mini" />
+      <recent name="D:\web\yii2cms\backend\modules\rbac\models\rules" />
     </key>
   </component>
   <component name="RunManager" selected="PHPUnit.models">
@@ -318,7 +330,18 @@
       <workItem from="1637215226365" duration="1770000" />
       <workItem from="1637217025730" duration="1874000" />
       <workItem from="1637218932696" duration="1457000" />
-      <workItem from="1637290111502" duration="856000" />
+      <workItem from="1637290111502" duration="18005000" />
+      <workItem from="1637385272052" duration="7999000" />
+      <workItem from="1637396133631" duration="11000" />
+      <workItem from="1637396156899" duration="30000" />
+      <workItem from="1637396199358" duration="1240000" />
+      <workItem from="1637403381813" duration="1776000" />
+      <workItem from="1637405187366" duration="1538000" />
+      <workItem from="1637462170007" duration="1783000" />
+      <workItem from="1637463990190" duration="2206000" />
+      <workItem from="1637494495407" duration="238000" />
+      <workItem from="1637494845077" duration="1806000" />
+      <workItem from="1637496717700" duration="1655000" />
     </task>
     <servers />
   </component>
@@ -353,14 +376,26 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="371" y="99" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1637463863680">
+      <screen x="0" y="0" width="1280" height="688" />
+    </state>
+    <state x="371" y="99" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1280.688@0.0.1280.688" timestamp="1637463863680" />
     <state x="421" y="99" key="FileChooserDialogImpl" timestamp="1637215288370">
       <screen x="0" y="0" width="1280" height="688" />
     </state>
     <state x="421" y="99" key="FileChooserDialogImpl/0.0.1280.688@0.0.1280.688" timestamp="1637215288370" />
-    <state x="297" y="153" key="run.anything.popup" timestamp="1637218077580">
+    <state x="458" y="267" key="NewPhpFileDialog" timestamp="1637403400286">
       <screen x="0" y="0" width="1280" height="688" />
     </state>
-    <state x="297" y="153" key="run.anything.popup/0.0.1280.688@0.0.1280.688" timestamp="1637218077580" />
+    <state x="458" y="267" key="NewPhpFileDialog/0.0.1280.688@0.0.1280.688" timestamp="1637403400286" />
+    <state x="297" y="153" key="run.anything.popup" timestamp="1637403437473">
+      <screen x="0" y="0" width="1280" height="688" />
+    </state>
+    <state x="297" y="153" key="run.anything.popup/0.0.1280.688@0.0.1280.688" timestamp="1637403437473" />
+    <state x="303" y="9" width="672" height="678" key="search.everywhere.popup" timestamp="1637309771370">
+      <screen x="0" y="0" width="1280" height="688" />
+    </state>
+    <state x="303" y="9" width="672" height="678" key="search.everywhere.popup/0.0.1280.688@0.0.1280.688" timestamp="1637309771370" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

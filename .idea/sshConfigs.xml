@@ -69,6 +69,18 @@
       <sshConfig authType="PASSWORD" host="106.13.115.15" id="74598490-a7c5-4344-8f9f-93f0c8caee52" port="22" customName="mini" nameFormat="CUSTOM" />
       <sshConfig authType="PASSWORD" host="106.13.115.15" id="125bba16-2248-4e08-93f6-d9a115afeb4c" port="22" customName="mini" nameFormat="CUSTOM" />
       <sshConfig authType="PASSWORD" host="106.13.115.15" id="78f7713a-d38d-4c61-9d5f-2611807b73d7" port="22" customName="mini" nameFormat="CUSTOM" />
+      <sshConfig authType="PASSWORD" host="106.13.115.15" id="86c2e598-0c92-47c4-ad2d-04fb3414eeb3" port="22" customName="mini" nameFormat="CUSTOM" />
+      <sshConfig authType="PASSWORD" host="106.13.115.15" id="dc6dd8fe-0fac-43de-96d7-e17a7f752169" port="22" customName="mini" nameFormat="CUSTOM" />
+      <sshConfig authType="PASSWORD" host="106.13.115.15" id="f4e8e143-1840-4ca0-88ff-d5828f2f8689" port="22" customName="mini" nameFormat="CUSTOM" />
+      <sshConfig authType="PASSWORD" host="106.13.115.15" id="3bc193ff-5345-46f3-b07e-0587bdebe3f0" port="22" customName="mini" nameFormat="CUSTOM" />
+      <sshConfig authType="PASSWORD" host="106.13.115.15" id="3d8e55f8-73eb-4fae-9884-d776b0bd7d41" port="22" customName="mini" nameFormat="CUSTOM" />
+      <sshConfig authType="PASSWORD" host="106.13.115.15" id="6cb65b92-fa64-453b-8699-ed63487261df" port="22" customName="mini" nameFormat="CUSTOM" />
+      <sshConfig authType="PASSWORD" host="106.13.115.15" id="e374e5e2-2e03-4948-934d-2682fcd0bac2" port="22" customName="mini" nameFormat="CUSTOM" />
+      <sshConfig authType="PASSWORD" host="106.13.115.15" id="e758f7a3-d242-487f-852e-9b27b2dd5851" port="22" customName="mini" nameFormat="CUSTOM" />
+      <sshConfig authType="PASSWORD" host="106.13.115.15" id="57693be3-41e3-4e27-98b7-2b4c6d503783" port="22" customName="mini" nameFormat="CUSTOM" />
+      <sshConfig authType="PASSWORD" host="106.13.115.15" id="38ebdcc5-c369-4433-b84d-c8ec2e55c73b" port="22" customName="mini" nameFormat="CUSTOM" />
+      <sshConfig authType="PASSWORD" host="106.13.115.15" id="bc49773f-3afe-494d-b105-da1e472ded16" port="22" customName="mini" nameFormat="CUSTOM" />
+      <sshConfig authType="PASSWORD" host="106.13.115.15" id="4c0fb49b-1fd7-4fe5-bf16-cca281c8e5c0" port="22" customName="mini" nameFormat="CUSTOM" />
     </configs>
   </component>
 </project>

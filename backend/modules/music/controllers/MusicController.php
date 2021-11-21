@@ -8,6 +8,7 @@ use common\models\music\MusicSearch;
 use common\models\music\PvSearch;
 use Yii;
 use common\models\Config;
+use common\common\FilePath;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
@@ -50,16 +51,20 @@ class MusicController extends Controller
         $songList='';
         if($songName){
             $data=\backend\modules\api\models\music::SearchSong($songName,$nu);
-            $songList = $data['Body']??[];
+            $songList = $data['songs']??[];
+            $songDataLite=[];
+            $mp3Url=\backend\modules\api\models\music::$mp3Url;
             foreach ($songList as $k=>$v){
-                $songList[$k]['singer']=$v['author']??'';
-                $songList[$k]['cover']=$v['pic']??'';
-                $songList[$k]['src']=$v['url']??'';
+                $songDataLite[$k]['title']=$v['name']??'';
+                $songDataLite[$k]['singer']=$v['ar'][0]['name']??'';
+                $songDataLite[$k]['cover']=$v['al'][0]['picUrl']??'';
+                $songDataLite[$k]['src']=$v['id']?$mp3Url.$v['id'].'.mp3':'';
+                $songDataLite[$k]['songid']=$v['id']??'';
             }
-            $songList=json_encode($songList);
+            $songDataLite=json_encode($songDataLite);
         }
         return $this->render('songlist', [
-            'songList' => $songList
+            'songList' => $songDataLite
         ]);
     }
 
@@ -76,6 +81,7 @@ class MusicController extends Controller
             'dataProvider' => $dataProvider,
         ]);
     }
+    
     /*
      * 歌词编辑
      */

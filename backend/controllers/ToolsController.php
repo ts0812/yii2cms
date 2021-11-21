@@ -56,4 +56,5 @@ class ToolsController extends Controller
 	public function actionIco(){
 		return $this->render('ico');
 	}
+
 }
